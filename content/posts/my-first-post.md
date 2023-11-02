@@ -4,4 +4,4 @@ date = 2023-11-02T17:10:58Z
 draft = true
 +++
 
-This is my first dumb post
+This is the first post for my personal blog.
