@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>thebu3no.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>thebu3no.com/series/</loc>
+    <loc>/series/</loc>
   </url><url>
-    <loc>thebu3no.com/tags/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>thebu3no.com/</loc>
+    <loc>/</loc>
   </url>
 </urlset>
