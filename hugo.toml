@@ -2,7 +2,8 @@ baseURL = ""
 theme = "ficurinia"
 title = "theBU3NO's site"
 author = "theBU3NO"
-copyright = "© theBU3NO @ thebu3no.com"
+copyright = "© theBU3NO 2023, Hugo theme licensed under AGPL3, github.com/thebu3no/thebu3no.com"
+# TXkgTmFtZSBpcyBMZWUgUi4gQmFrZXIgYW5kIG9uIEZyaWRheSwgTm92ZW1iZXIgM3JkIGluIHRoZSB5ZWFyIDIwMDMsIEkgYW0gY29weXJpZ2h0aW5nIG15IHBlcnNvbmFsIHdlYnNpdGUgYW5kIGJsb2csIHRoZWJ1M25vLmNvbSAoZ2l0aHViLmNvbS90aGVidTNuby90aGVidTNuby5jb20pLCB1bmRlciB0aGUgcHNldWRvbnltIHRoZUJVM05PLg==
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
