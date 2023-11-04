@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/my-first-post/</loc>
-    <lastmod>2023-11-02T17:10:58+00:00</lastmod>
+    <loc>/posts/my-second-post/</loc>
+    <lastmod>2023-11-02T16:00:58+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2023-11-02T17:10:58+00:00</lastmod>
+    <lastmod>2023-11-02T16:00:58+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-11-02T17:10:58+00:00</lastmod>
+    <lastmod>2023-11-02T16:00:58+00:00</lastmod>
+  </url><url>
+    <loc>/posts/my-first-post/</loc>
+    <lastmod>2023-11-01T17:10:58+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>/manifest/index.json</loc>
+  </url><url>
+    <loc>/search/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>

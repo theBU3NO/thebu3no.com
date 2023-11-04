@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "theBU3NO's thing",
+  "short_name": "theBU3NO's thing",
+  "start_url": "/",
+  "display": "standalone",
+  
+  
+  
+  "background_color": "#242629",
+  "theme_color": "#db5793"
+  
+  
+}
+

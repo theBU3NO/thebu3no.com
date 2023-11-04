@@ -1,113 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="" lang="en"><head>
+    
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
 
-    <head><title>Categories &ndash; theBU3NO&#39;s site</title>
-<meta name="description" content="A [hugo](https://gohugo.io) theme inspired by terminal ricing.">
+    
+        
+          <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="theBU3NO&#39;s thing" />
+          <link href="/categories/index.xml" rel="feed" type="application/rss+xml" title="theBU3NO&#39;s thing" />
+        
+    <link
+    rel="icon"
+    href='/favicon.png'
+/>
+<link
+    rel="shortcut icon"
+    href='/favicon.ico'
+    type="image/x-icon"
+/>
+<link
+    rel="apple-touch-icon"
+    href='/apple-touch-icon.png'
+/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8"/>
+<title>
+        
+            Categories  &ndash;
+        
+        theBU3NO&#39;s thing
+    </title>
+
+    
+    <link href="/symbols-nerd-font/symbols-nerd-font.css" rel="stylesheet" integrity="sha512-lydow8GLOLlYNOtHlksNCmGWWCBsbIEtikXpHzfWqx78HLlyQZHOzyLwPpKol4Th6aCwLUXOfODVYgwrd3nwKQ=="/>
+    <link href="/jetbrains-mono/jetbrains-mono.css" rel="stylesheet" integrity="sha512-tJxlgL6v1Y7kFf+qB8SloaAMKnOAw6WouknxXtIjkBux9Y/9aX81EUWOJO8c/3l98DmjG8brr4to7zaez606Fg=="/>
+
+    
+    
+    <link type="text/css" rel="stylesheet" href=/scss/style.scss integrity="" />
+<meta name="author" content="" />
+
+    
+
+<meta property="og:site_name"
+    content='theBU3NO&#39;s thing' />
+
+    <meta property="og:title"
+        content='theBU3NO&#39;s thing' />
+    
+    <meta property="og:type" content="blog" />
+    <meta property="og:image"
+        content='/img/icon.svg' />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain"
+      content=''
+/>
+<meta property="twitter:url" content="/categories/" />
 
 
+    <meta name="twitter:title"
+        content='theBU3NO&#39;s thing' />
+    
+    <meta name="twitter:image"
+        content='/img/icon.svg' />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
-
-
-<link rel="stylesheet" href="css/palettes/base16-dark.css">
-<link rel="stylesheet" href="css/risotto.css">
-<link rel="stylesheet" href="css/custom.css">
-
-
-
-
-
-
-
+<link rel="manifest" href="/manifest/index.json" />
 </head>
 
-    <body>
-        <div class="page">
 
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-    <h1 class="page__logo"><a href="" class="page__logo-inner">theBU3NO&#39;s site</a></h1>
+<body>
+        <div id="baseContainer"><header class="">
+<div class="titleAndSearchContainer">
+        <div id="titleContainer">
+            
+                <a class="unstyledLink" href="/">
+                    <img src='/logo.svg' alt='Logo'/>
+                </a>
+            
+            <div class="rightOfLogo">
+                <div class="titleAndHamburger">
+                    <h1>
+                        <a class="unstyledLink" href="/">theBU3NO&#39;s thing</a>
+                        
+                    </h1>
+                    
+                </div>
+                <div id="wide_nav"><nav>
     
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="/about/" title="">About</a></li>
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="/posts/" title="Posts">Posts</a></li>
-    
+    <ul id="main-nav">
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/posts">Posts</a></li>
+        
+        
+        
+        
+        
+        
+        
+            <li><a href="/tags">Tags</a></li>
+        
+        
     </ul>
 </nav>
+</div>
+            </div>
+        </div>
+        <div class="search">
+    <input id="searchbar" type="text" placeholder='Search' />
+    <span class="nerdlink" onclick="newSearch();">&#xf002;</span>
+</div>
+<script>
+    function newSearch() {
+        let term = searchbar.value.trim();
+        if (!term) return;
+        location.href = `/search?q=${term}`;
+    }
+    searchbar.onkeyup = (ev) => {if (ev.keyCode == 13) newSearch()};
+</script>
+
+    </div>
+    <div id="links">
+        <a
+    
+        rel="noreferrer"
+    
+    target="_blank"
+    class="nerdlink"
+    href="/index.xml">
+    
+    
+        &#xf09e;
+    
+    <span>
+        RSS
+    </span>
+</a>
+
+        
+        
+    </div>
+    
 
 </header>
-
-            <section class="page__body">
-    <h1 id="categories">Categories</h1>
-
+<div id="contentContainer">
+                <div id="content">
+                    <main>
+    <h2>
     
-
-    <ul>
     
-    </ul>
-
-
-            </section>
-
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    <img class="about__logo" src="images/rice.svg" alt="Logo">
-<h1 class="about__title">risotto</h1>
-<p class="about__description">A <a href="https://gohugo.io">hugo</a> theme inspired by terminal ricing.</p>
-</div>
-
-
-<ul class="aside__social-links">
     
-    <li>
-        <a href="https://github.com/joeroe/risotto" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
-    </li>
     
-    <li>
-        <a href="mailto:example@example.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
-    </li>
+        Categories
     
-    <li>
-        <a href="https://orcid.org/0000-0001-2345-6789" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
-    </li>
+</h2>
+<ul class="list">
+    
+        
     
 </ul>
-</div>
-                <hr>
-                <div class="aside__content">
-    
 
-                </div>
-            </section>
 
-            <footer class="page__footer"><p>
-    
-    
-    
-    
-    
-    
-      
-    
-      
-    
-    
-    
-</p>
-<br /><br />
-<p class="copyright">© theBU3NO @ thebu3no.com</p>
-<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+                    </main><footer>
+    <hr />
+
+<p><small>
+        2023 © theBU3NO, Hugo theme licensed under <!-- raw HTML omitted -->GNU AGPLv3<!-- raw HTML omitted --> @ <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->
+    </small></p>
 </footer>
-
+</div>
+            </div>
         </div>
-    </body>
 
+
+</body>
 </html>
