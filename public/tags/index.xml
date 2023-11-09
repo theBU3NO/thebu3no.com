@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on theBU3NO&#39;s thing</title>
+    <title>Tags on theBU3NO&#39;s dumb thing</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on theBU3NO&#39;s thing</description>
+    <description>Recent content in Tags on theBU3NO&#39;s dumb thing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>2023 © theBU3NO, Hugo theme licensed under &lt;a href=&#39;https://www.gnu.org/licenses/agpl-3.0.html&#39;&gt;GNU AGPLv3&lt;/a&gt; @ &lt;a href=&#39;https://www.github.com/thebu3no/thebu3no.com&#39;&gt;GitHub&lt;/a&gt;</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)</copyright>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

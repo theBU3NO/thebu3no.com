@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "theBU3NO's thing",
-  "short_name": "theBU3NO's thing",
+  "name": "theBU3NO's dumb thing",
+  "short_name": "theBU3NO's dumb thing",
   "start_url": "/",
   "display": "standalone",
   
