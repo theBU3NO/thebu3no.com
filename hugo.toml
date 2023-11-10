@@ -1,11 +1,13 @@
 baseURL = ""
 theme = "ficurinia"
 title = "theBU3NO's dumb thing"
-description = "my blogplace"
+description = "thebu3no's personal blog and landing page"
 author = "theBU3NO"
 copyright = "2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)"
 # TXkgTmFtZSBpcyBMZWUgUi4gQmFrZXIgYW5kIG9uIEZyaWRheSwgTm92ZW1iZXIgM3JkIGluIHRoZSB5ZWFyIDIwMDMsIEkgYW0gY29weXJpZ2h0aW5nIG15IHBlcnNvbmFsIHdlYnNpdGUgYW5kIGJsb2csIHRoZWJ1M25vLmNvbSAoZ2l0aHViLmNvbS90aGVidTNuby90aGVidTNuby5jb20pLCB1bmRlciB0aGUgcHNldWRvbnltIHRoZUJVM05PLg==
-paginate = 3
+
+paginate = 5  # number of articles per page in the index
+summaryLength = 70  # number of words for article summaries
 
 [[menu.icons]]
   identifier = "twitter"
@@ -24,3 +26,18 @@ paginate = 3
   name = "theBU3NO"
   url = "https://discord.gg"
   weight = 3
+
+[[menu.icons]]
+  identifier = "steam"
+  name = "theBU3NO"
+  url = "https://steamcommunity.com/id/thebu3no"
+  weight = 4
+
+logoRightOfTitle = false  # positions the logo to the right of the title; default: false
+
+showTags = true  # show the Tags menu item; default true
+showRss = false  # show the link for the RSS feed; default true
+
+imageInArticlePreview = true  # show images in article preview; default false
+fitImageInArticlePreview = true  # make article preview images fit the article preview instead of getting cropped
+articleSummary = true  # show a summary in article preview; default true
