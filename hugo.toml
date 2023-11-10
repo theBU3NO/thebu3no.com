@@ -6,3 +6,21 @@ author = "theBU3NO"
 copyright = "2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)"
 # TXkgTmFtZSBpcyBMZWUgUi4gQmFrZXIgYW5kIG9uIEZyaWRheSwgTm92ZW1iZXIgM3JkIGluIHRoZSB5ZWFyIDIwMDMsIEkgYW0gY29weXJpZ2h0aW5nIG15IHBlcnNvbmFsIHdlYnNpdGUgYW5kIGJsb2csIHRoZWJ1M25vLmNvbSAoZ2l0aHViLmNvbS90aGVidTNuby90aGVidTNuby5jb20pLCB1bmRlciB0aGUgcHNldWRvbnltIHRoZUJVM05PLg==
 paginate = 3
+
+[[menu.icons]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/thebu3no"
+  weight = 1
+
+[[menu.icons]]
+  identifier = "youtube"
+  name = "YouTube"
+  url = "https://youtube.com/@thebu3no"
+  weight = 2
+
+[[menu.icons]]
+  identifier = "discord"
+  name = "theBU3NO"
+  url = "https://discord.gg"
+  weight = 3
