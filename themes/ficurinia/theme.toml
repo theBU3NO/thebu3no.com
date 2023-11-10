@@ -19,3 +19,21 @@ logo = "/img/logo.png"
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
+
+[[menu.icons]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/thebu3no"
+  weight = 20
+
+[[menu.icons]]
+  identifier = "youtube"
+  name = "YouTube"
+  url = "https://youtube.com/@thebu3no"
+  weight = 10
+
+[[menu.icons]]
+  identifier = "discord"
+  name = "theBU3NO"
+  url = "https://discord.gg"
+  weight = 20
