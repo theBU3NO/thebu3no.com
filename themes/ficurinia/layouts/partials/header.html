@@ -26,9 +26,7 @@
                 </div>
             </div>
         </div>
-        {{ if and (.Site.Params.searchbarEverywhere | default true) (and (.Site.Params.enableSearch | default true) (not (eq .Title "Search"))) }}
-            {{- partial "searchbar.html" . -}}
-        {{ end }}
+
     </div>
     <div id="links">
         {{ if .Site.Params.showRss | default true }}

@@ -9,6 +9,8 @@ copyright = "2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://ww
 paginate = 5  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
 
+[menu]
+
 [[menu.icons]]
   identifier = "twitter"
   name = "Twitter"
@@ -33,9 +35,11 @@ summaryLength = 70  # number of words for article summaries
   url = "https://steamcommunity.com/id/thebu3no"
   weight = 4
 
+[params]
+
 logoRightOfTitle = false  # positions the logo to the right of the title; default: false
 
-showTags = true  # show the Tags menu item; default true
+showTags = false  # show the Tags menu item; default true
 showRss = false  # show the link for the RSS feed; default true
 
 imageInArticlePreview = true  # show images in article preview; default false
@@ -55,6 +59,6 @@ menuStyle = "standard"  # changes the style of the main site navigation menu, av
 inputStyle = "standard" # changes the style of inputs (like the searchbar), available styles are: "standard", "buttons"
 
 enableSearch = true  # enable search page
-searchbarEverywhere = false  # if the searchbar should be shown in every page; requires enableSearch
-searchMenuLink = true  # add a search link to the navigation menu; requires enableSearch
+searchbarEverywhere = true  # if the searchbar should be shown in every page; requires enableSearch
+searchMenuLink = false  # add a search link to the navigation menu; requires enableSearch
 mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
