@@ -5,6 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
 
+    
+        
+          <link href="/tags/blog/index.xml" rel="alternate" type="application/rss+xml" title="theBU3NO&#39;s dumb thing" />
+          <link href="/tags/blog/index.xml" rel="feed" type="application/rss+xml" title="theBU3NO&#39;s dumb thing" />
+        
     <link
     rel="icon"
     href='/favicon.png'
@@ -21,7 +26,7 @@
 
 <title>
         
-            My First Post  &ndash;
+            blog  &ndash;
         
         theBU3NO&#39;s dumb thing
     </title>
@@ -36,55 +41,29 @@
 <meta name="author" content="" />
 
     
-        <meta name="keywords" content='blog, first' />
-    
-    
-        <meta name="description" content="st for my personal blog." />
-    
 
 <meta property="og:site_name"
     content='theBU3NO&#39;s dumb thing' />
 
-    <meta property="og:title" content="My First Post" />
-    <meta property="og:type" content="article" />
+    <meta property="og:title"
+        content='theBU3NO&#39;s dumb thing' />
     
-    <meta
-        property="article:author" content="" />
-    <meta
-        property="article:published_time"
-        content='2023-11-01T17:10:58Z&#43;0000' />
-    
-        
-            <meta property="article:tag" content="blog" />
-        
-            <meta property="article:tag" content="first" />
-        
-    
-    <meta property="og:url" content="/posts/my-first-post/" />
-    
-    
+    <meta property="og:type" content="blog" />
     <meta property="og:image"
-        content="/img/icon.svg" />
-    
-        <meta property="og:description" content="This is the first post for my personal blog." />
-    
+        content='/img/icon.svg' />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:domain"
       content=''
 />
-<meta property="twitter:url" content="/posts/my-first-post/" />
+<meta property="twitter:url" content="/tags/blog/" />
 
 
-    <meta name="twitter:title" content="My First Post" />
-    
-    
+    <meta name="twitter:title"
+        content='theBU3NO&#39;s dumb thing' />
     
     <meta name="twitter:image"
-        content="/img/icon.svg" />
-    
-        <meta name="twitter:description" content="This is the first post for my personal blog." />
-    
+        content='/img/icon.svg' />
 
 <link rel="manifest" href="/manifest/index.json" />
 </head>
@@ -199,42 +178,46 @@
 <div id="contentContainer">
                 <div id="content">
                     <main>
-<article class="card single">
+    <div class="search">
+    <input id="searchbar" type="text" placeholder='Search' />
+    <span class="nerdlink" onclick="newSearch();">&#xf002;</span>
+</div>
+<script>
+    function newSearch() {
+        let term = searchbar.value.trim();
+        if (!term) return;
+        location.href = `/search?q=${term}`;
+    }
+    searchbar.onkeyup = (ev) => {if (ev.keyCode == 13) newSearch()};
+</script>
+
+
+<h2>
     
-        <h1>My First Post</h1>
     
     
-        <p class="date">
-            <span title='Date'> </span>
+    
+        Tag: #blog
+    
+</h2>
+
+<ul class="list">
+    
+                
+            <li>
+                <div>
+                    <span class="date">
     2023-11-01
 
-</p>
-    
-    
-    
-    
-    <div><p>This is the first post for my personal blog.</p>
-</div>
-</article>
-
-    <hr />
-    <p class="articleTagsContainer">
-        <span> </span>
-        <strong>Tags:</strong>
+</span>
+                    <span>
+                        <a href="/posts/my-first-post/">My First Post</a>
+                    </span>
+                </div>
+            </li>
         
-            <a
-                
-                href="/tags/blog">#blog</a>
-        
-            <a
-                
-                href="/tags/first">#first</a>
-        
-    </p>
-
-
-
-
+    
+</ul>
 
 
                     </main><footer>

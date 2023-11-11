@@ -14,6 +14,7 @@
         {{ if and (eq $section "Tags") (ne $section $title) }}{{ i18n "tagColumn" }} #{{ end }}{{ $title }}
     {{ end }}
 </h2>
+
 <ul class="list">
     {{ if and (eq $section "Tags") (eq $section $title) }}
         {{/* if we're in the Tags section, sort alphabetically and don't show the date */}}
@@ -21,9 +22,24 @@
             <li>
                 <a href="{{ .Permalink }}">#{{ .Title }}</a>
             </li>
+
         {{ end }}
     {{ else }}
-        {{ range .Pages }}
+
+    <div id="theme-tagcloud" class="col-sm-12" style="margin-bottom: 15px;">
+        Tags
+        {{ $tags := $.Site.Taxonomies.tags.ByCount }}
+        {{ $v1 := where $tags "Count" ">=" 1 }}
+        {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+        {{ range $v2 }}
+        {{ if .Term }}
+        {{ $tagURL := printf "tags/%s" .Term | relURL }}
+        <a href="{{ $tagURL }}" class="btn btn-default" role="button" style="text-transform: uppercase; font-size: 12px; padding-right: 5px; padding-left: 5px;" >{{ .Term }} <span class="badge">({{ .Count }})</span></a>
+        {{ end }}
+        {{ end }}
+        </div>
+
+        {{ range .Pages }}        
             <li>
                 <div>
                     <span class="date">
