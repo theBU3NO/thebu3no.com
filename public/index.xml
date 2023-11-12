@@ -10,12 +10,19 @@
     
     
     <item>
-      <title>My Second Post</title>
+      <title>Dumb Video</title>
       <link>/posts/my-second-post/</link>
       <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
       
       <guid>/posts/my-second-post/</guid>
-      <description><![CDATA[<p>This is the second post of my personal blog.</p>
+      <description><![CDATA[<p>I am testing a youtube video embed. Here&rsquo;s a clip from halo.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/6z795NiFZiU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 ]]></description>
       
     </item>
@@ -23,12 +30,28 @@
     
     
     <item>
-      <title>My First Post</title>
+      <title>My Third Post</title>
+      <link>/posts/my-third-post/</link>
+      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
+      
+      <guid>/posts/my-third-post/</guid>
+      <description><![CDATA[<p>This is the third post of my personal blog.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Blog like nobody&#39;s watching 🚀</title>
       <link>/posts/my-first-post/</link>
       <pubDate>Wed, 01 Nov 2023 17:10:58 +0000</pubDate>
       
       <guid>/posts/my-first-post/</guid>
-      <description><![CDATA[<p>This is the first post for my personal blog.</p>
+      <description><![CDATA[<p>I&rsquo;ve made a dumb website for my custom domain. Hooray.</p>
+<p>I registered the domain for e-mail but it might as well have a site on it too. The only thing I could think of to put on it was video games of course. I&rsquo;m going to curate a list of games I&rsquo;d like to play, which will mostly be strategy and board games that will never happen.</p>
+<p>Maybe I&rsquo;ll blog about games sometimes?</p>
+<p>Maybe I&rsquo;ll blog about other things? Even more unlikely.</p>
 ]]></description>
       
     </item>

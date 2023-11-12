@@ -14,7 +14,8 @@
       <link>/posts/my-first-post/</link>
       <pubDate>Wed, 01 Nov 2023 17:10:58 +0000</pubDate>
       <guid>/posts/my-first-post/</guid>
-      <description>This is the first post for my personal blog.</description>
+      <description>This is the first post for my personal blog.
+How does it work?</description>
     </item>
   </channel>
 </rss>

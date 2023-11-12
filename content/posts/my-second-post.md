@@ -1,9 +1,11 @@
 +++
-title = 'My Second Post'
+title = 'Dumb Video'
 date = 2023-11-02T16:00:58Z
 draft = false
-tags = ['blog', 'second']
+tags = ['video games', 'youtube video', 'halo']
 
 +++
 
-This is the second post of my personal blog.
+I am testing a youtube video embed. Here's a clip from halo.
+
+{{< youtube 6z795NiFZiU >}}

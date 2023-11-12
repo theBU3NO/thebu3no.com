@@ -7,20 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)</copyright>
-    <lastBuildDate>Wed, 01 Nov 2023 17:10:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 16:00:58 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Wed, 01 Nov 2023 17:10:58 +0000</pubDate>
-      <guid>/tags/blog/</guid>
+      <title>halo</title>
+      <link>/tags/halo/</link>
+      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
+      <guid>/tags/halo/</guid>
       <description></description>
     </item>
     <item>
-      <title>first</title>
-      <link>/tags/first/</link>
+      <title>third</title>
+      <link>/tags/third/</link>
+      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
+      <guid>/tags/third/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>video games</title>
+      <link>/tags/video-games/</link>
+      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
+      <guid>/tags/video-games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>youtube video</title>
+      <link>/tags/youtube-video/</link>
+      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
+      <guid>/tags/youtube-video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>website</title>
+      <link>/tags/website/</link>
       <pubDate>Wed, 01 Nov 2023 17:10:58 +0000</pubDate>
-      <guid>/tags/first/</guid>
+      <guid>/tags/website/</guid>
       <description></description>
     </item>
   </channel>

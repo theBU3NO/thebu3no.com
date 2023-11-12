@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on theBU3NO&#39;s dumb thing</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on theBU3NO&#39;s dumb thing</description>
+    <title>website on theBU3NO&#39;s dumb thing</title>
+    <link>/tags/website/</link>
+    <description>Recent content in website on theBU3NO&#39;s dumb thing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)</copyright>
-    <lastBuildDate>Thu, 02 Nov 2023 16:00:58 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dumb Video</title>
-      <link>/posts/my-second-post/</link>
-      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
-      <guid>/posts/my-second-post/</guid>
-      <description>I am testing a youtube video embed. Here&amp;rsquo;s a clip from halo.</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>/posts/my-third-post/</link>
-      <pubDate>Thu, 02 Nov 2023 16:00:58 +0000</pubDate>
-      <guid>/posts/my-third-post/</guid>
-      <description>This is the third post of my personal blog.</description>
-    </item>
+    <lastBuildDate>Wed, 01 Nov 2023 17:10:58 +0000</lastBuildDate>
+    <atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog like nobody&#39;s watching 🚀</title>
       <link>/posts/my-first-post/</link>
