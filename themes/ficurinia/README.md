@@ -2,7 +2,7 @@
 
 # Ficurinia
 
-A prickly blog theme for Hugo
+ATTENTION: This theme is heavily edited and parts of the documentation may not apply.
 
 ![](images/tn.png)
 

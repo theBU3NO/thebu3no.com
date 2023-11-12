@@ -208,6 +208,7 @@ footer {
 
 #links {
     padding: 5px 0;
+    background-color: #404045;
 }
 
 article, .articlePreview {
@@ -335,7 +336,7 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 .nerd {
     font-family: $symbols_font, $main_font;
-    font-size: 1.2 * $base_font_size;
+    font-size: 1.75 * $base_font_size;
     margin: 5px;
     display: inline-block;
 }
@@ -959,6 +960,7 @@ header.jumbotronContainer {
     }
     padding-bottom: 0;
     padding-top: 0;
+   
     .jumbotron { display: flex; }
     {{ if and
         .Site.Data.jumbotron.background
