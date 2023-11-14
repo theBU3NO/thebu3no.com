@@ -524,8 +524,8 @@ ul.list {
     column-gap: 30px;
     row-gap: 20px;
     justify-content: center;
-    #titleContainer {
-        flex-grow: 0;
+    #titleContainer, h1 {
+        text-align: center;
     }
     .search {
         flex-grow: 1;
@@ -583,8 +583,9 @@ ul.list {
 #titleContainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 
     h1 {
         font-weight: normal;
@@ -602,8 +603,6 @@ ul.list {
     }
 
     img {
-        margin-right: ($margin / 2);
-        margin-top: 7px;
         align-self: flex-start;
         width: 50px;
         max-height: 50px;
@@ -617,6 +616,7 @@ nav:not(#TableOfContents), #links {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 0;
         margin: 0;
     }
@@ -629,8 +629,9 @@ header {
         width: 100%;
         .titleAndHamburger {
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
-            flex-wrap: nowrap;
+            align-content: center;
             align-items: center;
             justify-content: center;
         }
@@ -1186,6 +1187,7 @@ header.jumbotronContainer {
                         nav:not(#TableOfContents) {
                             font-size: 1.1em;
                             ul#main-nav {
+                                justify-content: center;
                                 flex-direction: column;
                                 li {
                                     border-right: none;
@@ -1249,6 +1251,7 @@ header.jumbotronContainer {
 }
 
 #games {
+font-size: 14px;
 display: flex;
 flex-wrap: wrap;
 justify-content:center;

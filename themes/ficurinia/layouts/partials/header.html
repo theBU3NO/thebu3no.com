@@ -8,8 +8,6 @@
                     <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                 </a>
                 {{ end }}
-                <div class="rightOfLogo">
-                    <div class="titleAndHamburger">
                         <h1>
                         <a class="unstyledLink" href="/">{{ .Site.Title | default "Ficurinia" }}</a>
                         {{ if .Site.Params.logoRightOfTitle | default false }}
@@ -21,11 +19,8 @@
                             &#xf85b;
                         </label>
                         {{ end }}
-                    </div>
                     <div id="wide_nav">
                         {{- partial "header_navigation.html" . -}}
-                    </div>
-
                 </div>
            
             </div>
@@ -43,7 +38,7 @@
         </div>
         <div id="games">
 
-            <p>hey! play a game with me, here's the kind of stuff i like</p>
+            <p><i>hey! play a game with me. here's the type of stuff i like</i></p>
 
             <ul>
                 <li><ins>strategy stuff</ins></li>
@@ -67,6 +62,9 @@
                     <li>mario party</li>
                     <li>pummel party</li>
                     <li>mount your friends</li>
+                    <li><p></li>
+                    <li><ins>tcgs</ins></li>
+                    <li>sorcery tcg and keyforge</li>
                 </ul>
         </div>
     </div>
