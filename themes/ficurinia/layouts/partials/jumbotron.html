@@ -55,17 +55,7 @@
                     }
                 </script>
             {{ end }}
-            {{ if .Site.Data.jumbotron.links }}
-                <ul>
-                    {{ range .Site.Data.jumbotron.links }}
-                        <li>
-                            <a class="{{ if .huge }}huge{{ end }}" href="{{ .link | safeURL }}">
-                                {{ .title }}
-                            </a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ end }}
+
         </div>
     </div>
     {{ if (

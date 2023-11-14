@@ -1,5 +1,5 @@
 +++
-title = 'Dumb Video'
+title = 'Dumb Video 📺'
 date = 2023-11-02T16:00:58Z
 draft = false
 tags = ['video games', 'youtube video', 'halo']

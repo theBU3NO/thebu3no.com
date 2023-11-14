@@ -1,6 +1,6 @@
 baseURL = ""
 theme = "ficurinia"
-title = "theBU3NO's dumb thing"
+title = "theBU3NO"
 description = "thebu3no's personal blog and landing page"
 author = "theBU3NO"
 copyright = "2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)"
