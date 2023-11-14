@@ -13,13 +13,13 @@ summaryLength = 70  # number of words for article summaries
 
 [[menu.icons]]
   identifier = "twitter"
-  name = "Twitter"
+  name = "twitter"
   url = "https://twitter.com/thebu3no"
   weight = 1
 
 [[menu.icons]]
   identifier = "youtube"
-  name = "YouTube"
+  name = "youTube"
   url = "https://youtube.com/@thebu3no"
   weight = 2
 
