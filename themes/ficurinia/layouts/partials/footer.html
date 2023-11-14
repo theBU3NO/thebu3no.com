@@ -1,0 +1,8 @@
+<footer>
+    <hr />
+    {{- partial "inject/footer.html" . -}}
+    {{- partial "footer_columns.html" . -}}
+    <p><small>
+        {{ .Site.Copyright | markdownify }}
+    </small></p>
+</footer>

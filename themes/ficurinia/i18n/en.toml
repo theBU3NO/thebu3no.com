@@ -1,0 +1,56 @@
+[404message]
+other = "This is not the page you were looking for"
+
+[searchbarTxt]
+other = "Search"
+
+[tags]
+other = "Tags"
+
+[date]
+other = "Date"
+
+[continueReading]
+other = "Continue reading"
+
+[previousPage]
+other = "Previous page"
+
+[nextPage]
+other = "Next page"
+
+[shareOnTheFediverse]
+other = "Share on the Fediverse"
+
+[enterFediverseInstanceAddress]
+other = "Enter your instance's address"
+
+[fediverseInstanceExample]
+other = "Eg. mastodon.social"
+
+[cancel]
+other = "Cancel"
+
+[share]
+other = "Share"
+
+[home]
+other = "home"
+
+[posts]
+other = "posts"
+
+[search]
+other = "search"
+
+[tagsColumn]
+other = "tags:"
+
+[tagColumn]
+other = "tag:"
+
+[morePostsLikeThis]
+other = "more posts like this"
+
+[noResultsFound]
+other = "no results found"
