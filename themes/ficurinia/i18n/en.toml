@@ -35,22 +35,22 @@ other = "Cancel"
 other = "Share"
 
 [home]
-other = "Home"
+other = "home"
 
 [posts]
-other = "Posts"
+other = "posts"
 
 [search]
-other = "Search"
+other = "search"
 
 [tagsColumn]
-other = "Tags:"
+other = "tags:"
 
 [tagColumn]
-other = "Tag:"
+other = "tag:"
 
 [morePostsLikeThis]
-other = "More posts like this"
+other = "more posts like this"
 
 [noResultsFound]
-other = "No results found"
+other = "no results found"

@@ -1,44 +1,74 @@
 <header class="{{ if .IsHome }}jumbotronContainer{{ end }}">
     {{- partial "inject/header-before.html" . -}}
     <div class="titleAndSearchContainer">
-        <div id="titleContainer">
-            {{ if not (.Site.Params.logoRightOfTitle | default false) }}
+        <div id="titleAndLinksContainer">
+            <div id="titleContainer">
+                {{ if not (.Site.Params.logoRightOfTitle | default false) }}
                 <a class="unstyledLink" href="/">
                     <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                 </a>
-            {{ end }}
-            <div class="rightOfLogo">
-                <div class="titleAndHamburger">
-                    <h1>
+                {{ end }}
+                        <h1>
                         <a class="unstyledLink" href="/">{{ .Site.Title | default "Ficurinia" }}</a>
                         {{ if .Site.Params.logoRightOfTitle | default false }}
                             <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                         {{ end }}
-                    </h1>
-                    {{ if (.Site.Params.mobileHamburgerNav | default false) }}
+                        </h1>
+                        {{ if (.Site.Params.mobileHamburgerNav | default false) }}
                         <label id="hamburger-menu" for="main-nav-toggler">
                             &#xf85b;
                         </label>
-                    {{ end }}
+                        {{ end }}
+                    <div id="wide_nav">
+                        {{- partial "header_navigation.html" . -}}
                 </div>
-                <div id="wide_nav">
-                    {{- partial "header_navigation.html" . -}}
-                </div>
+           
+            </div>
+            <div id="links">
+                {{ if .Site.Params.showRss | default true }}
+                    {{- partial "iconlink" (dict "Identifier" "rss" "Name" "RSS" "URL" "/index.xml") -}}
+                {{ end }}
+                {{ range .Site.Params.links }}
+                    {{- partial "nerdlink" . -}}
+                {{ end }}
+                {{ range .Site.Menus.icons }}
+                    {{- partial "iconlink" . -}}
+                {{ end }}
             </div>
         </div>
+        <div id="games">
 
+            <p><i>hey! play a game with me. here's the type of stuff i like</i></p>
+
+            <ul>
+                <li><ins>strategy stuff</ins></li>
+                <li>root</li>
+                <li>armello</li>
+                <li>hexarchy</li>
+                <li>dominion</li>
+                <li>talisman</li>
+            </ul>
+            
+            <ul><li><ins>action stuff</ins></li>
+                <li>albion online</li>
+                <li>pulsar: lost colony</li>
+                <li>void crew</li>
+                <li>dark and darker</li>
+                <li>heroes of the storm</li>
+                <li>star citizen</li>
+            </ul>
+
+                <ul><li><ins>party stuff</ins></li>
+                    <li>mario party</li>
+                    <li>pummel party</li>
+                    <li>mount your friends</li>
+                    <li><p></li>
+                    <li><ins>tcgs</ins></li>
+                    <li>sorcery tcg and keyforge</li>
+                </ul>
+        </div>
     </div>
-    <div id="links">
-        {{ if .Site.Params.showRss | default true }}
-            {{- partial "iconlink" (dict "Identifier" "rss" "Name" "RSS" "URL" "/index.xml") -}}
-        {{ end }}
-        {{ range .Site.Params.links }}
-            {{- partial "nerdlink" . -}}
-        {{ end }}
-        {{ range .Site.Menus.icons }}
-            {{- partial "iconlink" . -}}
-        {{ end }}
-    </div>
+
     {{ if and
         (.Site.Params.enableSidebarLayout | default false)
         (or

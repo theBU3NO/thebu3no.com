@@ -180,6 +180,7 @@ a.unstyledLink {
 #content {
     @include limitWidth;
     padding: $margin;
+    padding-top: 0;
 }
 
 footer {
@@ -204,11 +205,6 @@ footer {
             }
         }
     }
-}
-
-#links {
-    padding: 5px 0;
-    background-color: #404045;
 }
 
 article, .articlePreview {
@@ -319,6 +315,7 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $symbols_font, $title_font;
+    margin-block-start: 0.5em;
     a {
         color: var(--default_accent);
         {{ if not (.Site.Params.underlineTitleLinks | default false) }}
@@ -337,7 +334,6 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 .nerd {
     font-family: $symbols_font, $main_font;
     font-size: 1.75 * $base_font_size;
-    margin: 5px;
     display: inline-block;
 }
 
@@ -525,9 +521,11 @@ ul.list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    #titleContainer {
-        flex-grow: 99;
+    column-gap: 30px;
+    row-gap: 20px;
+    justify-content: center;
+    #titleContainer, h1 {
+        text-align: center;
     }
     .search {
         flex-grow: 1;
@@ -584,10 +582,10 @@ ul.list {
 
 #titleContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    align-self: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
     h1 {
         font-weight: normal;
@@ -605,8 +603,6 @@ ul.list {
     }
 
     img {
-        margin-right: ($margin / 2);
-        margin-top: 7px;
         align-self: flex-start;
         width: 50px;
         max-height: 50px;
@@ -620,6 +616,7 @@ nav:not(#TableOfContents), #links {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 0;
         margin: 0;
     }
@@ -628,15 +625,15 @@ nav:not(#TableOfContents), #links {
 header {
     @include limitWidth;
     padding: $margin;
-    margin-bottom: $margin;
     .rightOfLogo {
         width: 100%;
         .titleAndHamburger {
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: flex-start;
-            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
         }
     }
     nav:not(#TableOfContents) {
@@ -1190,6 +1187,7 @@ header.jumbotronContainer {
                         nav:not(#TableOfContents) {
                             font-size: 1.1em;
                             ul#main-nav {
+                                justify-content: center;
                                 flex-direction: column;
                                 li {
                                     border-right: none;
@@ -1230,6 +1228,52 @@ header.jumbotronContainer {
 
 
 // transitions at the end so that loading css doens't cause animations
+
+#titleAndLinksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: .5em;
+    padding: 5px 10px 5px 10px;
+    background-color: #404045;
+}
+
+#games {
+font-size: 14px;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-content: flex-end;
+align-items: flex-end;
+row-gap: 15px;
+column-gap: 20px;
+}
+
+#games > * {
+    flex: 1;
+}
+
+#games ul {
+list-style: none;
+margin: 0;
+padding-inline-start: 0px;
+}
+
+#games li {
+    margin: 0;
+    }
 
 a {
     transition-property: color, border-color;
