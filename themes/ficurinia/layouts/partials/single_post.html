@@ -36,9 +36,5 @@
     </p>
 {{ end }}
 {{- partial "inject/content-after.html" . -}}
-{{ if .Params.showShare | default true }}
-    {{- partial "share_on_fediverse.html" . -}}
 {{ end }}
-{{- partial "commento.html" . -}}
-{{- partial "cactus_chat.html" . -}}
 {{- partial "related_articles.html" . -}}

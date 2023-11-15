@@ -12,28 +12,34 @@ summaryLength = 70  # number of words for article summaries
 [menu]
 
 [[menu.icons]]
+  identifier = "email"
+  name = "send me an e-mail - howdy.partner436@slmail.me - yes that's correct"
+  url = "mailto:howdy.partner436@slmail.me"
+  weight = 1
+
+[[menu.icons]]
   identifier = "twitter"
   name = "twitter.com/theBU3NO"
   url = "https://twitter.com/thebu3no"
-  weight = 1
+  weight = 2
 
 [[menu.icons]]
   identifier = "youtube"
   name = "youtube.com/@theBU3NO"
   url = "https://youtube.com/@thebu3no"
-  weight = 2
+  weight = 3
 
 [[menu.icons]]
   identifier = "discord"
-  name = "theBU3NO"
-  url = "https://discord.gg"
-  weight = 3
+  name = "Discord Username: theBU3NO"
+  url = ""
+  weight = 4
 
 [[menu.icons]]
   identifier = "steam"
   name = "steamcommunity.com/id/theBU3NO"
   url = "https://steamcommunity.com/id/thebu3no"
-  weight = 4
+  weight = 5
 
 [params]
 
@@ -62,3 +68,4 @@ enableSearch = true  # enable search page
 searchbarEverywhere = true  # if the searchbar should be shown in every page; requires enableSearch
 searchMenuLink = false  # add a search link to the navigation menu; requires enableSearch
 mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
+tocBeforeImage = false  # show the table of contents before the main article image; default false

@@ -1,4 +1,18 @@
-<a
+{{ if eq (lower .Identifier) "discord" }}
+<div class="nerdlink" id="discord-icon">
+{{ $icon := index site.Data.supported_icons (lower .Identifier) | safeHTML }}
+{{ if $icon }}
+ <p>   {{ $icon | safeHTML }}
+{{ else }}
+   {{ .Name }}
+{{ end }}
+<span>
+    {{ .Name }}
+</span> 
+</p>
+</div>
+{{ else }}
+<a 
     {{ if eq (lower .Identifier) "mastodon" }}
         rel="me"
     {{ else }}
@@ -15,6 +29,6 @@
     {{ end }}
     <span>
         {{ .Name }}
-    </span>
-    
+    </span> 
 </a>
+{{ end }}

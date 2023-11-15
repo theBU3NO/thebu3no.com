@@ -96,23 +96,6 @@ summaryLength = 70  # number of words for article summaries
 
     underlineTitleLinks = false  # show an underline also for links that are titles
 
-    # enable comments support with commento using the script from your server
-    commento = "https://example.com/js/commento.js"
-
-    # enable comments support with cactus comments (cactus.chat)
-    cactusCommentsSiteName = "example.com"
-    cactusCommentsServerName = "cactus.chat"
-    cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
-
-    # enable analytics using Plausible
-    plausibleScriptUrl = "https://something.com/..."
-    plausibleDomain = "example.com"
-
-    # enable analytics using Umami
-    umamiScriptUrl = "https://something.com/..."
-    umamiWebsiteId = "example-tracking-code"
-
-    enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
     tocBeforeImage = false  # show the table of contents before the main article image; default false
 
     # WARNING: deprecated! Use [[menu.icons]] instead, look below
