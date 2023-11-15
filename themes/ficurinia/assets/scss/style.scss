@@ -5,48 +5,11 @@ $dark_hl_bg:       {{ $colors.dark.hl_bg      | default "#34363b" }};
 $dark_fg:          {{ $colors.dark.fg         | default "white"   }};
 $dark_dim_fg:      {{ $colors.dark.dim_fg     | default "#bababa" }};
 $dark_stroke:      {{ $colors.dark.stroke     | default "#4f4f4f" }};
-$dark_accent:      {{ $colors.dark.accent     | default "#db5793" }};
+$dark_accent:      {{ $colors.dark.accent     | default "#ffa346" }}; //ff8559
 $dark_sidebar_bg:  {{ $colors.dark.sidebar.bg | default "#34363b" }};
 $dark_sidebar_fg:  {{ $colors.dark.sidebar.fg | default "white"   }};
 
-$light_bg:         {{ $colors.light.bg         | default "#f5f5f5" }};
-$light_hl_bg:      {{ $colors.light.hl_bg      | default "#e6e6e6" }};
-$light_fg:         {{ $colors.light.fg         | default "#262625" }};
-$light_dim_fg:     {{ $colors.light.dim_fg     | default "#40403e" }};
-$light_stroke:     {{ $colors.light.stroke     | default "#575754" }};
-$light_accent:     {{ $colors.light.accent     | default "#db5793" }};
-$light_sidebar_bg: {{ $colors.light.sidebar.bg | default "#e6e6e6" }};
-$light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
-
 :root {
-    --dark_bg:          #{$dark_bg};
-    --dark_hl_bg:       #{$dark_hl_bg};
-    --dark_fg:          #{$dark_fg};
-    --dark_dim_fg:      #{$dark_dim_fg};
-    --dark_stroke:      #{$dark_stroke};
-    --dark_accent:      #{$dark_accent};
-    --dark_sidebar_bg:  #{$dark_sidebar_bg};
-    --dark_sidebar_fg:  #{$dark_sidebar_fg};
-
-    --light_bg:         #{$light_bg};
-    --light_hl_bg:      #{$light_hl_bg};
-    --light_fg:         #{$light_fg};
-    --light_dim_fg:     #{$light_dim_fg};
-    --light_stroke:     #{$light_stroke};
-    --light_accent:     #{$light_accent};
-    --light_sidebar_bg: #{$light_sidebar_bg};
-    --light_sidebar_fg: #{$light_sidebar_fg};
-
-    {{ if eq .Site.Data.colors.default "light" }}
-        --default_bg:         #{$light_bg};
-        --default_hl_bg:      #{$light_hl_bg};
-        --default_fg:         #{$light_fg};
-        --default_dim_fg:     #{$light_dim_fg};
-        --default_stroke:     #{$light_stroke};
-        --default_accent:     #{$light_accent};
-        --default_sidebar_bg: #{$light_sidebar_bg};
-        --default_sidebar_fg: #{$light_sidebar_fg};
-    {{ else }}
         --default_bg:         #{$dark_bg};
         --default_hl_bg:      #{$dark_hl_bg};
         --default_fg:         #{$dark_fg};
@@ -55,36 +18,7 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
         --default_accent:     #{$dark_accent};
         --default_sidebar_bg: #{$dark_sidebar_bg};
         --default_sidebar_fg: #{$dark_sidebar_fg};
-    {{ end }}
 }
-
-{{ if ($colors.auto_switch | default false) }}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --default_bg:         #{$dark_bg};
-        --default_hl_bg:      #{$dark_hl_bg};
-        --default_fg:         #{$dark_fg};
-        --default_dim_fg:     #{$dark_dim_fg};
-        --default_stroke:     #{$dark_stroke};
-        --default_accent:     #{$dark_accent};
-        --default_sidebar_bg: #{$dark_sidebar_bg};
-        --default_sidebar_fg: #{$dark_sidebar_fg};
-    }
-}
-@media (prefers-color-scheme: light) {
-    :root {
-        --default_bg:         #{$light_bg};
-        --default_hl_bg:      #{$light_hl_bg};
-        --default_fg:         #{$light_fg};
-        --default_dim_fg:     #{$light_dim_fg};
-        --default_stroke:     #{$light_stroke};
-        --default_accent:     #{$light_accent};
-        --default_sidebar_bg: #{$light_sidebar_bg};
-        --default_sidebar_fg: #{$light_sidebar_fg};
-    }
-}
-{{ end }}
-
 
 $main_font: {{ .Site.Params.fontFamily | default "JetBrains Mono" }};
 $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
@@ -117,10 +51,23 @@ body, html {
     padding: 0;
     background-color: var(--default_bg);
     color: var(--default_fg);
+
+    h1, h2, h3, h4, h5 {
+        color: var(--default_accent);
+    }
 }
 
 body {
     min-height: 100vh;
+}
+
+#next-previous-container {
+    display: flex;
+    justify-content: space-between;
+    
+    a {
+        color: var(--default_accent);
+    }
 }
 
 @mixin linkLike {
@@ -184,6 +131,7 @@ a.unstyledLink {
 }
 
 footer {
+    text-align: center;
     color: var(--default_dim_fg);
     a {
         color: var(--default_dim_fg);
@@ -333,7 +281,7 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 .nerd {
     font-family: $symbols_font, $main_font;
-    font-size: 1.75 * $base_font_size;
+    font-size: 2.5 * $base_font_size;
     display: inline-block;
 }
 
@@ -421,19 +369,26 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 .postlistitem.card div {
     img {
-        height: 250px;
-        {{ if (.Site.Params.paperCards | default false) }}
-            min-width: calc(100% + #{2*$margin});
-            margin: 0 #{-$margin};
-        {{ else }}
-            min-width: 100%;
-        {{ end }}
+        height: 32px;
         object-fit:
             {{ if .Site.Params.FitImageInArticlePreview }}
                 contain
             {{ else }}
                 cover
             {{ end }};
+    }
+}
+
+.red {
+    color: #ff8a8a;
+}
+
+#post-title-container {
+display: flex;
+align-items: center;
+
+    img {
+       margin: 0 10px 12px 0; 
     }
 }
 
@@ -517,9 +472,9 @@ ul.list {
     }
 }
 
-.titleAndSearchContainer {
+.headerAndGamesContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 20px;
@@ -1237,26 +1192,41 @@ header.jumbotronContainer {
     align-items: center;
     align-content: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+#linksAndPointersContainer {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #links {
+    flex: 10;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-    gap: .5em;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 1em;
     padding: 5px 10px 5px 10px;
-    background-color: #404045;
+    flex-wrap: wrap;
+    > * {
+        flex: 1;
+    }
+}
+
+.pointer {
+    font-size: .8 * $base_font_size;
+    color: #{$dark_stroke};
+    flex: 1;
+    max-width: 0%;
 }
 
 #games {
-font-size: 14px;
+font-size: .9 * $base_font_size;
 display: flex;
 flex-wrap: wrap;
-justify-content:center;
-align-content: flex-end;
-align-items: flex-end;
+align-items: baseline;
 row-gap: 15px;
 column-gap: 20px;
 }
