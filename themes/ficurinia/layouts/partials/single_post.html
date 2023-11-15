@@ -1,8 +1,11 @@
 {{- partial "inject/content-before.html" . -}}
 <article class="card single">
+    <div id="post-title-container">
+    <img src="{{ .Params.Image }}" />
     {{ if .Params.showTitle | default true }}
         <h1>{{ .Title }}</h1>
     {{ end }}
+    </div>
     {{ if (.Params.showDate | default true) }}
         <p class="date">
             <span title='{{ i18n "date" }}'> </span>
@@ -12,20 +15,7 @@
     {{ if and (.Params.toc | default false) (.Site.Params.tocBeforeImage | default false) }}
         {{- partial "toc.html" . -}}
     {{ end }}
-    {{ if .Params.Image }}
-        <figure style="margin: 0">
-            {{ if or (hasPrefix .Params.Image "/") (hasPrefix .Params.Image "http://") (hasPrefix .Params.Image "https://") }}
-                <img src="{{ .Params.Image }}" alt="{{ .Params.Alt }}" />
-            {{ else }}
-                <img src="{{ .Permalink }}/{{ .Params.Image }}" alt="{{ .Params.Alt }}" />
-            {{ end }}
-            {{ if .Params.ImageCaption }}
-                <figcaption>
-                    <p>{{ .Params.ImageCaption | markdownify }}</p>
-                </figcaption>
-            {{ end }}
-        </figure>
-    {{ end }}
+
     {{ if and (.Params.toc | default false) (not (.Site.Params.tocBeforeImage | default false)) }}
         {{- partial "toc.html" . -}}
     {{ end }}
@@ -41,7 +31,7 @@
                 {{ if site.Params.buttonTags | default false }}
                 class="buttonTag"
                 {{ end }}
-                href="/tags/{{ . | urlize }}">#{{ . }}</a>
+                href="/tags/{{ . | urlize }}"><span class="red">#</span>{{ . }}</a>
         {{ end }}
     </p>
 {{ end }}

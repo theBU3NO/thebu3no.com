@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 theme = "ficurinia"
 title = "theBU3NO's dumb website"
 description = "thebu3no's personal blog and social links"
@@ -13,13 +13,13 @@ summaryLength = 70  # number of words for article summaries
 
 [[menu.icons]]
   identifier = "twitter"
-  name = "twitter"
+  name = "twitter.com/theBU3NO"
   url = "https://twitter.com/thebu3no"
   weight = 1
 
 [[menu.icons]]
   identifier = "youtube"
-  name = "youTube"
+  name = "youtube.com/@theBU3NO"
   url = "https://youtube.com/@thebu3no"
   weight = 2
 
@@ -31,7 +31,7 @@ summaryLength = 70  # number of words for article summaries
 
 [[menu.icons]]
   identifier = "steam"
-  name = "theBU3NO"
+  name = "steamcommunity.com/id/theBU3NO"
   url = "https://steamcommunity.com/id/thebu3no"
   weight = 4
 

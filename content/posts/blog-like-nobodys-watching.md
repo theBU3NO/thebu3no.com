@@ -1,9 +1,11 @@
-+++
-title = "blog like nobody's watching 🚀"
-date = 2023-11-01T17:10:58Z
-draft = false
-tags = ['website','video games']
-+++
+---
+title: "blog like nobody's watching"
+date: 2023-11-01T17:42:23-05:00
+tags:
+  - website
+  - video games
+image: /robits/sunglasses.svg
+---
 
 i've made a dumb website for my custom domain. hooray.  
 
