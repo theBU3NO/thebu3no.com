@@ -392,6 +392,10 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 display: flex;
 align-items: center;
 
+    a {
+        border-bottom: 0px;
+    }
+
     img {
        margin: 0 10px 12px 0; 
     }
@@ -418,11 +422,12 @@ ul.list {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
-    margin: $margin 0;
+    align-items: baseline;
+    margin: 3 * $margin;
     .nerdlink {
         display: inline-block;
         cursor: pointer;
+        font-size: 1.5* $base_font_size;
         padding: 0 6px;  // appropriately sized tap targets
     }
     #searchbar {
