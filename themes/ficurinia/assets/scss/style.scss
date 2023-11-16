@@ -264,7 +264,6 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $symbols_font, $title_font;
-    margin-block-start: 0.5em;
     a {
         color: var(--default_accent);
         {{ if not (.Site.Params.underlineTitleLinks | default false) }}

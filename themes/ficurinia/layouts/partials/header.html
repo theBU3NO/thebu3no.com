@@ -3,16 +3,11 @@
     <div class="headerAndGamesContainer">
         <div id="titleAndLinksContainer">
             <div id="titleContainer">
-                {{ if not (.Site.Params.logoRightOfTitle | default false) }}
                 <a class="unstyledLink" href="/">
                     <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                 </a>
-                {{ end }}
                         <h1>
                         <a class="unstyledLink" href="/">{{ .Site.Title | default "Ficurinia" }}</a>
-                        {{ if .Site.Params.logoRightOfTitle | default false }}
-                            <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
-                        {{ end }}
                         </h1>
                         {{ if (.Site.Params.mobileHamburgerNav | default false) }}
                         <label id="hamburger-menu" for="main-nav-toggler">
@@ -43,9 +38,17 @@
         </div>
     
         <div id="games">
+            <div>
             {{ if .IsHome }}
             <p><i><span class="red">hey!</span> play a game with me. here's the type of stuff i like</i></p>
-
+            <ul>
+                <li class="red">future hype</li>
+                <li>custom mech wars</li>
+                <li>ashes of creation</li>
+                <li>marathon</li>
+                <li>solium infernum</li>
+            </ul>
+            </div>
             <ul>
                 <li class="red">strategy stuff</li>
                 <li>root</li>
@@ -53,10 +56,12 @@
                 <li>hexarchy</li>
                 <li>dominion</li>
                 <li>talisman</li>
+                <li>worms?</li>
             </ul>
             
             <ul><li class='red'>action stuff</li>
                 <li>albion online</li>
+                <li>destiny 2</li>
                 <li>pulsar: lost colony</li>
                 <li>void crew</li>
                 <li>dark and darker</li>
@@ -72,7 +77,7 @@
                     <li class="red">tcgs</li>
                     <li>sorcery</li>
                     <li>keyforge</li>
-                </ul>
+                    </ul>
         </div>
         {{ end }}
     </div>

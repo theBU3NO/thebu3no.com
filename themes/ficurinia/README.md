@@ -31,7 +31,7 @@ defaultContentLanguage = "en"
 copyright = "Some copyright notice - [my license](https://example.com/license)"
 
 paginate = 5  # number of articles per page in the index
-summaryLength = 70  # number of words for article summaries
+summaryLength = 0  # number of words for article summaries
 
 
 [params]
