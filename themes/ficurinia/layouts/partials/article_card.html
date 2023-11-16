@@ -17,19 +17,8 @@
                 {{ end }}
             {{ end }}
         </p>
-        
-        {{ if (site.Params.articleSummary | default true) }}
-            <div class="articlePreview">
-                <p>
-                    {{ if .Params.description }}
-                        {{ .Params.description }}
-                    {{ else }}
-                        {{.Summary }}
-                    {{ end }}
-                </p>
-                <p><a href="{{ .Permalink }}">{{ i18n "continueReading" }} </a></p>
-            </div>
-        {{ end }}
+{{ .Content }}
+
     </div>
     <hr />
 </article>

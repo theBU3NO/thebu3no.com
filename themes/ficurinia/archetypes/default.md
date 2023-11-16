@@ -2,9 +2,10 @@
 title: "{{ replace (replace .Name "-" " ") "_" " " | title }}"
 date: {{ .Date }}
 tags:
-  - tag1
-  - tag2
-  - tag3
+  - 🌐website
+  - 🎮video games
+  - 📺youtube
 image: /robits/happy.svg
 ---
 
+text

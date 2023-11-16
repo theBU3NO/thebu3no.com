@@ -40,17 +40,19 @@
         const dateStr = '{{ i18n "date" | safeJS }}'
 
         return `
-        <article class="card postlistitem">
+        <article class="card postlistitem">      
             <div>
+                <div id="post-title-container">
+                    ${img}
                 <h2>
                     <a href="${article.link}">${article.title}</a>
                 </h2>
+                </div>
                 <p class="date">
                     <span title='${dateStr}'> </span>
                     ${article.date}
                     ${tags}
                 </p>
-                ${img}
                 ${summ}
             </div>
             <hr />
