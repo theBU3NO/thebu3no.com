@@ -36,7 +36,7 @@ tocBeforeImage = false  # show the table of contents before the main article ima
 
 [[menu.icons]]
   identifier = "email"
-  name = "send me an e-mail - howdy.partner436@slmail.me - yes that's correct"
+  name = "send me an e-mail - howdy.partner436@slmail.me - yes that's really the address"
   url = "mailto:howdy.partner436@slmail.me"
   weight = 1
 

@@ -6,6 +6,7 @@ tags:
   - 🎮video games
   - 📺youtube
 image: /robits/happy.svg
+draft: true
 ---
 
 text
