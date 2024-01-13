@@ -1,12 +1,12 @@
 ---
-title: "{{ replace (replace .Name "-" " ") "_" " " | title }}"
-date: {{ .Date }}
+title: "Test Post"
+date: 2024-01-13T11:47:23-05:00
 tags:
   - 🌐website
   - 🎮video games
   - 📺youtube
 image: /robits/happy.svg
-draft: true
+draft: false
 featured: false
 ---
 
