@@ -30,7 +30,7 @@ searchbarEverywhere = true  # if the searchbar should be shown in every page; re
 searchMenuLink = false  # add a search link to the navigation menu; requires enableSearch
 mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
 tocBeforeImage = false  # show the table of contents before the main article image; default false
-
+enableFeatured = true # featured articles pin to the top of the home page
 
 [menu]
 

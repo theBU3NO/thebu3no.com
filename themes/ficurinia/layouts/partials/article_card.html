@@ -11,7 +11,7 @@
             {{- partial "date.html" .Date -}}
             {{ if and (site.Params.tagsInArticlePreview | default true) .Params.tags }}
                 | <!-- Pipe character as visual separator between date and tags-->
-                <span title='{{ i18n "tags" }}'> </span>
+                <span title='{{ i18n "tags" }}'> 󰡫</span>
                 {{ range sort .Params.tags }}
                     <a href="/tags/{{ . | urlize }}"><span>#{{ . }}</span></a>
                 {{ end }}

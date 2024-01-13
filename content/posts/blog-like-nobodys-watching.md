@@ -11,12 +11,10 @@ featured: true
 
 i've made a dumb website for my custom domain. hooray.  
 
-i registered the domain for e-mail but it might as well have a site on it too. the only thing i could think of to put on it was video games of course, so here we are. i thought it would be cute to curate a list of video games i'd like to play, which will mostly be strategy and board games that are too cumbersome and will never happen.  
+i registered the domain for e-mail but it might as well have a site on it too. i thought it would be cute to curate a list of video games i'd like to play, which will mostly be strategy and board games that are too cumbersome and will never happen.  
 
-maybe i'll blog about the games i'm playing sometimes?  
+maybe i'll blog about the games i'm playing sometimes? or other things? unlikely.
 
-maybe i'll blog about other things? unlikely. 
-
-also i want to test a video embed so here's me being startled by a mongoose in halo
+anyway i also want to test a video embed so here's me being startled by a mongoose in halo
 
 {{< youtube 6z795NiFZiU >}}
