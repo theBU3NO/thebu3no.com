@@ -1,6 +1,6 @@
 ---
-title: "{{ replace (replace .Name "-" " ") "_" " " | title }}"
-date: {{ .Date }}  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
+title: "title"
+date: YYYY-MM-DD  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website
   - 🎮video games
@@ -13,6 +13,6 @@ draft: true
 
 text
 
-example youtube embed for youtube.com/watch?v=6z795NiFZiU
+example youtube embed
 
 {{< youtube 6z795NiFZiU >}}
