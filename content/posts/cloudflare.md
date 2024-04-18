@@ -1,5 +1,5 @@
 ---
-title: "put your images in cloudflare like you just don't care"
+title: "save your pics in cloudflare like you just don't care"
 date: 2023-04-17  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website
