@@ -369,17 +369,17 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
     }
 {{ end}}
 
-.postlistitem.card div {
-    img {
-        height: 32px;
-        object-fit:
-            {{ if .Site.Params.FitImageInArticlePreview }}
-                contain
-            {{ else }}
-                cover
-            {{ end }};
-    }
-}
+// .postlistitem.card div {
+//    img {
+//        height: 32px;
+//        object-fit:
+//            {{ if .Site.Params.FitImageInArticlePreview }}
+//                contain
+//            {{ else }}
+//                cover
+//            {{ end }};
+//    }
+// }
 
 .red {
     color: #ff8a8a;
