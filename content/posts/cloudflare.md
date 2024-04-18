@@ -12,4 +12,4 @@ draft: false
 
 i'm testing cloudflare r2 storage so here's an image of my fortnite dude playing in a band with aang and the master chief and some other person
 
-![fortnite festival screenshot](https://dash.cloudflare.com/0cce12f4f0205294a79590ee2304f5b8/r2/default/buckets/blog-images/objects/fortnite-festival-aang-halo.png)
+![fortnite festival screenshot](https://thebu3no.com/fortnite-festival-aang-halo.png)
