@@ -24,8 +24,4 @@ i've known for a while that i should just do an s3 bucket but i'm a noob at this
 
 anyway i found out cloudflare has this r2 storage which is basically s3 and this site is already hosted for free on cloudflare pages so i went with them. i'm a cloudflare stan. with traffic like mine it'll be free as long as the hackermen don't come for me
 
-now i'm going to test a little image gallery
-
-{{< image-gallery gallery_dir="/albums/ravendawn1" >}}
-
 
