@@ -11,7 +11,7 @@ weight: 0  #add weight to pin to top or sort pins
 draft: true
 ---
 
-text
+test text
 
 example youtube embed
 
