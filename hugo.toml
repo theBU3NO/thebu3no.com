@@ -32,6 +32,9 @@ mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav
 tocBeforeImage = false  # show the table of contents before the main article image; default false
 enableFeatured = true # featured articles pin to the top of the home page
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [menu]
 
 [[menu.icons]]
