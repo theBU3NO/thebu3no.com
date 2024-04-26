@@ -40,7 +40,7 @@ i wish i had video of this guy teabagging me as he lost 5 to 0
 
 <--->
 
-[![phasmophobia end recap screen](screensharts1%2F17-thumb.webp)](screensharts1%2F17.webp)
+[![phasmophobia end recap screen](screensharts1%2F17-thumb.webp)](screensharts1%2F17.webp))
 
 somehow we did manage to win a whole round of phasmophobia one time
 
