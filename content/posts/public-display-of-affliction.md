@@ -11,17 +11,17 @@ weight: 0  #add weight to pin to top or sort pins
 draft: false
 ---
 
-[![screenshot of heroes of the storm mvp screen with my rehgar](https://images.thebu3no.com/screensharts1%2F7-thumb.webp)](https://images.thebu3no.com/screensharts1%2F7.webp)
+[![screenshot of heroes of the storm mvp screen with my rehgar](https://images.thebu3no.com/screensharts1-7-thumb.webp)](https://images.thebu3no.com/screensharts1%2F7.webp)
 heroes of the storm is? was? my favorite and most-played competitive game for sure. it's just something special. this shot was from when something happened with a ranked season reset and it put me down in silver when i had been in high diamond and i had to crawl back up. this ended up being extremely challenging as i consider myself a player that was very good at filling in strategies and contributing to teamwork, making a team more than the sum of it's parts, but without the raw skill or leadership to carry a team in the lower leagues.
 
 {{% columns %}}
 
-[![root: a game of woodland might and right victory screenshot](https://images.thebu3no.com/screensharts1%2F14-thumb.png)](https://images.thebu3no.com/screensharts1%2F14.png)
+[![root: a game of woodland might and right victory screenshot](https://images.thebu3no.com/screensharts1-14-thumb.png)](https://images.thebu3no.com/screensharts1%2F14.png)
 i love strategy games, especially multiplayer board/card games, and root is a really good one. i was pretty excited to win my first online multiplayer match. every turn-based game should have async play btw.
 
 <--->
 
-[![scoreboard of call of duty warzone where i did gud](https://images.thebu3no.com/screensharts1%2F11-thumb.png)](https://images.thebu3no.com/screensharts1%2F11.png)
+[![scoreboard of call of duty warzone where i did gud](https://images.thebu3no.com/screensharts1-11-thumb.png)](https://images.thebu3no.com/screensharts1%2F11.png)
 this was the 2019 cod: modern warfare i think? they added the ground war mode which was 32v32 which is my jam. i generally don't like small team games with the toxicity and pressure that comes with them, so games like battlefield and planetside are my favorites, as well as halo big team battles and the goats like tribes 2.
 
 {{% /columns %}}
