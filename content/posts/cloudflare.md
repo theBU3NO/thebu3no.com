@@ -26,5 +26,6 @@ anyway i found out cloudflare has this r2 storage which is basically s3 and this
 
 edit: i replaced the screenshot and wow .webp files are magic, they compress further and look way better than optimized jpegs or pngs. apparently i should look into jpeg xl as well
 
+edit2: well that was fun. anyway i think i've decided that images and video embeds look dumb on this site that i've styled to be low-key and icon heavy. i'm working to make targeted little sections and individual words be fun and just blasting screenshots takes away from my silly little art project. i think i'm just going to have fancy text links that will bring up a lightbox of whatever i'm trying to talk about
 
 
