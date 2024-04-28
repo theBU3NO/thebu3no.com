@@ -12,7 +12,7 @@ draft: false
 
 i'm testing image storage so here's an screenshot of my fortnite dude playing in a band with aang and the master chief and some other person
 
-[![fortnite festival screenshot](https://images.thebu3no.com/fortnite-festival-aang-halo-smol.webp)](https://images.thebu3no.com/fortnite-festival-aang-halo.webp)
+{{< image title="fortnite festival screenshot" file="fortnite-festival-aang-halo.webp" >}}
 
 hey it actually worked
 

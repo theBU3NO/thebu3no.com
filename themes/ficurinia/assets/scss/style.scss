@@ -1115,7 +1115,6 @@ font-size: .9 * $base_font_size;
 display: flex;
 flex-wrap: wrap;
 align-items: baseline;
-row-gap: 15px;
 column-gap: 20px;
 }
 
@@ -1145,24 +1144,42 @@ a {
     }
 }
 
-// columns shortcode
+//columns
 
-.md-columns {
+.post-column-container {
 	display: flex;
+	flex-direction: row;
+	flex-basis: auto;
 	flex-wrap: wrap;
-	margin-left: -1rem;
-	margin-right: -1rem;
+	column-gap: 15px;
+	gap: 15px;
+	margin-bottom: 10px;
+}
 
-	>div {
-		flex: 1 1;
-		margin: 1rem 0;
-		min-width: 100px;
-		max-width: 100%;
-		padding: 0 1rem;
-	}
+.post-column {
+	flex: 1;	
+}
 
-	.markdown-inner {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
+.yellow {
+	color: #ffc07d;
+}
+
+.blue {
+	color: #87ecec;
+}
+
+.red {
+	color: #ff8a8a;
+}
+
+.dark-grey {
+	color: #34363b;
+}
+
+.light-grey {
+	color: #bababa;
+}
+
+.grey {
+	color: #4f4f4f;
 }

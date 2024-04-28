@@ -17,6 +17,8 @@ i registered the domain for e-mail but it might as well have a site on it too. i
 
 maybe i'll blog about the games i'm playing sometimes? or other things? unlikely.
 
-anyway i also want to test a video embed so here's me being startled by a mongoose in halo
+anyway i also want to test a video embed so i have a dumb dragon for you
 
-{{< youtube 6z795NiFZiU >}}
+edit: i later decided that embedding full size youtube videos wasn't pretentious enough so now i'm trying fancy links that open them in a special lightbox
+
+{{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}

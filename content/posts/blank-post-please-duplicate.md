@@ -5,6 +5,7 @@ tags:
   - 🌐website
   - 🎮video games
   - 📺youtube
+  - 📸screenshots
 image: /robits/sunglasses.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
@@ -13,6 +14,7 @@ draft: true
 
 test text
 
-example youtube embed
+# {{< image file="filename.webp" title="text" >}}
 
-{{< youtube 6z795NiFZiU >}}
+# this is going to change
+# {{< youtube 6z795NiFZiU >}}
