@@ -56,7 +56,7 @@ ah man i really liked dota underlords too. i've played a couple rounds of teamfi
 
 {{< column >}}
 
-{{< image title="minion masters victory with 1% hp left screenshot" file="https://images.thebu3no.com/screensharts1-10.webp" >}}
+{{< image title="minion masters victory with 1% hp left screenshot" file="screensharts1-10.webp" >}}
 
 minion masters is well done, i like that i can employ my favorite tcg strategy of going face
 
@@ -70,7 +70,7 @@ i used to play 40k and orkses is me favrit. i played the demo for this speed fre
 
 {{< start-columns >}}
 
-{{< image title="stellaris nexus victory screen vs ai" file="https://images.thebu3no.com/screensharts1-12.webp" >}}
+{{< image title="stellaris nexus victory screen vs ai" file="screensharts1-12.webp" >}}
 
 this was just beating up ai opponents in stellaris nexus, now called just nexus 5x i think. as per usual it's a very good strategic and social digital board game that won't be popular and will make me sad
 
@@ -84,7 +84,7 @@ the vanilla launch of alterac valley will probably remain my favorite pvp experi
 
 {{< start-columns >}}
 
-{{< image title="halo infinite 33/6 k/d victory screen" file="https://images.thebu3no.com/screensharts1-16.webp" >}}
+{{< image title="halo infinite 33/6 k/d victory screen" file="screensharts1-16.webp" >}}
 
 hell ye halo big team battle i got in an aircraft and did a big pew pew
 
@@ -96,7 +96,7 @@ that's really a lot of pve damage for an uther
 
 {{< column >}}
 
-{{< image title="screenshot of big kael'thas damage" file="https://images.thebu3no.com/screensharts1-6.webp" >}}
+{{< image title="screenshot of big kael'thas damage" file="screensharts1-6.webp" >}}
 
 kael'thas do many damages
 
