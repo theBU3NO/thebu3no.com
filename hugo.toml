@@ -47,8 +47,8 @@ enableFeatured = true # featured articles pin to the top of the home page
     disable = false
     privacyEnhanced = true
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup.goldmark.renderer] #
+unsafe = false
 
 [menu]
 
