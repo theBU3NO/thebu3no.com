@@ -51,6 +51,8 @@ body, html {
     padding: 0;
     background-color: var(--default_bg);
     color: var(--default_fg);
+    line-height: 1.5;
+    letter-spacing: .25px;
     
 
     h1, h2, h3, h4, h5 {
@@ -1158,11 +1160,11 @@ a {
 	flex: 1;	
 }
 
-.gold {
+.yellow {
 	color: #ffc07d;
 }
 
-.aqua {
+.blue {
 	color: #87ecec;
 }
 
