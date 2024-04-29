@@ -11,10 +11,9 @@ featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: true
 ---
-
-test text
-
 # {{< image file="filename.webp" title="text" >}}
-
-# this is going to change
-# {{< youtube 6z795NiFZiU >}}
+# {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
+# {{< style word="cool" type="blue" >}} red, blue, yellow, grey, light-grey, dark-grey, neon-green, black, pink, rainbow
+# {{< start-columns >}} {{< column >}} {{< end-columns >}}
+# links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
+text

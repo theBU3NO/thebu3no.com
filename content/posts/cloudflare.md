@@ -16,15 +16,15 @@ i'm testing image storage so here's an screenshot of my fortnite dude playing in
 
 hey it actually worked
 
-i want to post and store random pictures and screenshots somewhere without any hassle and for free because i'm ridiculous, but that pretty much just means social media and then you have to choose one and choosing a social media provider feels like you're making some sort of lasting political decision with far-reaching implications
+i want to post and store random pictures and screenshots somewhere without any hassle and for free because i'm ridiculous, but that pretty much just means social media and then you have to choose one and choosing a social media provider feels like you're making some sort of lasting political decision with far-reaching i m p l i c a t i o n s.
 
-i looked at tumblr for the first time some how and thought it might actually be the best social media platform in 2024 but i made this site to be a blog so having a separate blog just for pictures feels silly
+i looked at tumblr for the first time some how and thought it might actually be the best social media platform in 2024 but i made this site to be a blog so having a separate blog just for pictures feels {{< style word="silly" type="rainbow" >}}.
 
-i've known for a while that i should just do an s3 bucket but i'm a noob at this stuff and i have this fear that some hackerman is going to randomly target me and make a bunch of malicious image requests or something and run up a huge bill?
+i've known for a while that i should just do an s3 bucket but i'm a noob at this stuff and i have this fear that some {{< style word="h" type="neon-green" >}}{{< style word="a" type="grey" >}}{{< style word="c" type="neon-green" >}}{{< style word="k" type="grey" >}}{{< style word="e" type="neon-green" >}}{{< style word="r" type="grey" >}}{{< style word="m" type="neon-green" >}}{{< style word="a" type="grey" >}}{{< style word="n" type="neon-green" >}}  is going to randomly target me and make a bunch of malicious image requests or something and run up a huge bill?
 
-anyway i found out cloudflare has this r2 storage which is basically s3 and this site is already hosted for free on cloudflare pages so i went with them. i'm a cloudflare stan. with traffic like mine it'll be free as long as the hackermen don't come for me
+anyway i found out cloudflare has this r2 storage which is basically s3 and this site is already hosted for free on cloudflare pages so i went with them. i'm a cloudflare stan. with traffic like mine it'll be free as long as the hackermen don't come for me.
 
-edit: i replaced the screenshot and wow .webp files are magic, they compress further and look way better than optimized jpegs or pngs. apparently i should look into jpeg xl as well
+edit: i replaced the screenshot and {{< style word="wow" type="blue" >}} .webp files are magic, they compress further and look way better than optimized jpegs or pngs. apparently i should look into jpeg xl as well
 
 edit2: well that was fun. anyway i think i've decided that images and video embeds look dumb on this site that i've styled to be low-key and icon heavy. i'm working to make targeted little sections and individual words be fun and just blasting screenshots takes away from my silly little art project. i think i'm just going to have fancy text links that will bring up a lightbox of whatever i'm trying to talk about
 
