@@ -12,7 +12,7 @@ draft: false
 
 {{< image title="screenshot of heroes of the storm mvp screen with my rehgar" file="screensharts1-7.webp" >}}
 
-heroes of the storm is? was? my favorite and most-played competitive game for sure. it's just something {{< style word="special" type="rainbow" >}}. this shot was from when something happened with a ranked season reset and it put me down in silver when i had been in high diamond and i had to crawl back up. this ended up being extremely challenging as i consider myself a player that was very good at filling in strategies and contributing to teamwork, making a team more than the sum of it's parts, but without the raw skill or leadership to carry a team in the lower leagues.🥉
+heroes of the storm is? was? my favorite and most-played competitive game for sure. it's just something {{< style word="special" type="rainbow" >}}. this shot was from when something happened with a ranked season reset and it put me down in silver when i had been in high diamond and i had to crawl back up. this ended up being extremely challenging as i consider myself a player that was very good at filling in strategies and contributing to teamwork, making a team more than the sum of it's parts, but without the raw skill or leadership to carry a team in the lower leagues.
 
 {{< start-columns >}}
 
@@ -24,7 +24,7 @@ i love strategy games, especially multiplayer board/card games, and root is a re
 
 {{< image file="screensharts1-11.webp" title="call of duty ground war scoreboard screenshot where i did gud.jpg" >}}
 
-this was the 2019 cod: modern warfare i think? they added the ground war mode which was 32v32 which is my jam. i generally don't like small team games with the ☣️ toxicity and pressure that comes with them, so games like battlefield and planetside are my favorites, as well as halo big team battles and the goats like tribes 2.
+this was the 2019 cod: modern warfare i think? they added the ground war mode which was 32v32 which is my jam. i generally don't like small team games with the toxicity and pressure that comes with them, so games like battlefield and planetside are my favorites, as well as halo big team battles and the goats like tribes 2.
 
 {{< end-columns >}}
 
@@ -44,7 +44,7 @@ i wish i had video of this guy teabagging me as he lost 5 to 0
 
 {{< image title="phasmophobia end recap screen" file="screensharts1-17.webp" >}}
 
-👻 somehow we did manage to win a whole round of phasmophobia one time
+somehow we did manage to win a whole round of phasmophobia one time
 
 {{< end-columns >}}
 
