@@ -20,7 +20,7 @@ i want to post and store random pictures and screenshots somewhere without any h
 
 i looked at tumblr for the first time some how and thought it might actually be the best social media platform in 2024 but i made this site to be a blog so having a separate blog just for pictures feels {{< style word="silly" type="rainbow" >}}.
 
-i've known for a while that i should just do an s3 bucket but i'm a noob at this stuff and i have this fear that some {{< style word="h" type="neon-green" >}}{{< style word="a" type="grey" >}}{{< style word="c" type="neon-green" >}}{{< style word="k" type="grey" >}}{{< style word="e" type="neon-green" >}}{{< style word="r" type="grey" >}}{{< style word="m" type="neon-green" >}}{{< style word="a" type="grey" >}}{{< style word="n" type="neon-green" >}}  is going to randomly target me and make a bunch of malicious image requests or something and run up a huge bill?
+i've known for a while that i should just do an s3 bucket but i'm a noob at this stuff and i have this fear that some {{< style word="hackerman" type="neon-green" >}} is going to randomly target me and make a bunch of malicious image requests or something and run up a huge bill?
 
 anyway i found out cloudflare has this r2 storage which is basically s3 and this site is already hosted for free on cloudflare pages so i went with them. i'm a cloudflare stan. with traffic like mine it'll be free as long as the hackermen don't come for me.
 

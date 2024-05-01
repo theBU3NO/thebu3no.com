@@ -1209,5 +1209,7 @@ a {
 }
 
 .neon-green {
-	color: #0FFF50;
-}
+	 background: linear-gradient(to right, green, darkgrey, green, darkgrey, green, darkgrey, green, darkgrey, green);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+  }
