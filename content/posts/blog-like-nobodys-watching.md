@@ -19,6 +19,6 @@ i'll {{< style word="probably" type="strikethrough" >}} maybe blog about the gam
 
 anyway i also want to test a video embed so i have a silly dragon clip for you
 
-edit: i later decided that embedding full size youtube videos wasn't {{< style word="pretentious" type="rainbow" >}} enough so now i'm trying fancy links that open them in a special lightbox
+edit: i later decided that embedding full size youtube videos wasn't pretentious enough so now i'm trying {{< style word="fancy" type="rainbow" >}} links that open them in a special lightbox
 
 {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
