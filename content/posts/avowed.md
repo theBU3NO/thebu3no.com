@@ -19,7 +19,6 @@ I have thoughts, but I'll not be organizing them into a viral youtube video essa
 
 That one was a game reference in case you didn't play it. Anyway, I think the most telling data from my time with Avowed goes as such:
 
-{{< style word="
           ┌───────────────────────────────────────────────────────────┐
  Path of  │                                                           │
  Damnation│                          When I checked to see if ─►┌┐    │
@@ -40,7 +39,6 @@ That one was a game reference in case you didn't play it. Anyway, I think the mo
 Story Time│                                         └───────────┘└──  │
           │   Time, duh. ────►                                Ending  │
           └───────────────────────────────────────────────────────────┘
-" type="ascii" >}}
 
 Basically the more I played the more I just wanted to get it over with. Now I'm not immediately suggesting that this is a fault of the game itself. There are a few factors at play here.
 
