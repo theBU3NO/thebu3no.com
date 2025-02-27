@@ -1,3 +1,14 @@
+---
+title: "This article is about Avowed, surely"
+date: 2025-02-27  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
+tags:
+  - 🌐website
+  - 🎮video games
+image: /robits/wink.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
+featured: false  #pin to home
+weight: 0  #add weight to pin to top or sort pins
+draft: false
+---
 I don't know. What do I have to write about? Do I have an interesting opinion about anything? Would my anxiety even permit me to post an interesting opinion online if I did?
 
 This website is my mid-life crisis. I've spent nearly my whole existence being passionate -- pretty much strictly about games. It just seems like I should probably do something besides only playing them. Plus that whole human desire to leave something behind after I go -- thing, and I'm not buying my name on an Ohio State University building at this rate.
