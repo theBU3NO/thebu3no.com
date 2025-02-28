@@ -1163,6 +1163,11 @@ a {
 .goat.svg-container {
 	width:80%;
 	place-self:center;
+
+	svg {
+	font-family: 'JetBrains Mono', monospace;
+    	font-size: 14;
+	}
 }
 
 .yellow {
