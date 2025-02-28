@@ -13,7 +13,7 @@ draft: true
 ---
 # {{< image file="filename.webp" title="text" >}}
 # {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
-# {{< style word="cool" type="blue" >}} red, blue, yellow, grey, light-grey, dark-grey, neon-green, black, pink, rainbow, green, brown
+# {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, brown
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 text
