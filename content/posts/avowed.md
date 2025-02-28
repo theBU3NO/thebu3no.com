@@ -8,12 +8,13 @@ image: /robits/wink.svg  #angry, astonished, clown, content, crying, dumb, evil,
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: false
----
+
 # {{< image file="filename.webp" title="text" >}}
 # {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
 # {{< style word="cool" type="blue" >}} red, blue, yellow, grey, light-grey, dark-grey, neon-green, black, pink, rainbow, green, brown
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
+---
 
 I don't know. What do I have to write about? Do I have an interesting opinion about anything? Would my {{< style word="anxiety" type="dark-grey" >}} even permit me to post an interesting opinion online if I did?
 
