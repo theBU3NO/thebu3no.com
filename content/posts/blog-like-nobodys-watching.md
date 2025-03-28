@@ -6,7 +6,7 @@ tags:
   - 🎮video games
   - 📺youtube
 image: /robits/sunglasses.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
-featured: true  #pin to home
+featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: false
 ---
