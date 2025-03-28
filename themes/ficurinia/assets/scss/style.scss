@@ -1160,6 +1160,16 @@ a {
 	flex: 1;	
 }
 
+.goat.svg-container {
+	width:80%;
+	place-self:center;
+
+	svg {
+	font-family: 'JetBrains Mono', monospace;
+    	font-size: 14px;
+	}
+}
+
 .yellow {
 	color: #ffc07d;
 }
@@ -1213,7 +1223,7 @@ a {
 }
 
 .brown {
-	color: brown;
+	color: #4B3A26;
 }
 
 .neon-green {

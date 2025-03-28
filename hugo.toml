@@ -58,11 +58,11 @@ unsafe = false
   url = "mailto:howdy.partner436@slmail.me"
   weight = 1
 
-[[menu.icons]]
-  identifier = "twitter"
-  name = "twitter.com/theBU3NO"
-  url = "https://twitter.com/thebu3no"
-  weight = 2
+#[[menu.icons]]
+#identifier = "twitter"
+#name = "twitter.com/<user with capitals or however you want it to look as text>"
+#url = "https://twitter.com/<username without capitals>"
+#weight = 2
 
 [[menu.icons]]
   identifier = "youtube"
