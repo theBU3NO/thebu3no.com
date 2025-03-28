@@ -68,18 +68,18 @@ unsafe = false
   identifier = "youtube"
   name = "youtube.com/@theBU3NO"
   url = "https://youtube.com/@thebu3no"
-  weight = 3
+  weight = 5
 
-[[menu.icons]]
-  identifier = "discord"
-  name = "Discord Username: theBU3NO"
-  url = ""
-  weight = 4
+#[[menu.icons]]
+#  identifier = "discord"
+#  name = "Discord Username: <user>"
+#  url = ""
+#  weight = 3
 
 [[menu.icons]]
   identifier = "steam"
   name = "steamcommunity.com/id/theBU3NO"
   url = "https://steamcommunity.com/id/thebu3no"
-  weight = 5
+  weight = 4
 
 
