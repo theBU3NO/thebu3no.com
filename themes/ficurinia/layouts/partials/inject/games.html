@@ -2,13 +2,15 @@
 
        <div id="games">
               <div> <!-- need the div here to combine and message and first list into one column -->
-            {{ if .IsHome }}
+            {{ if or .IsHome .Params.display_games | default false }}
             <p><i><span class="red">hi!</span> here's some stuff i'm interested in or playing lately, i try to keep it updated for fun.</i></p>
             <ul>
        <li class='red'>actiony stuff</li>
               <li>towerborne</li>
               <li>heroes_of_the_storm</li>
               <li>wreckfest_2</li>
+              <li><p></li>
+              <li>🔗<a class="blue" href="/extras/patch-notes/">patch notes</a></li>
             </ul>
               </div>
               

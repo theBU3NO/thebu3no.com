@@ -1,12 +1,12 @@
 {{ if .Site.Params.infiniteScrolling }}
 {{- partial "js_paginator.html" . -}}
     <script>
-        var nextPage = '/index.json';
+        var Next = '/index.json';
         function getNext(first=false) {
-            if (!nextPage) return;
-            fetch(nextPage).then(res => res.json())
+            if (!Next) return;
+            fetch(Next).then(res => res.json())
             .then(res => {
-                nextPage = res['next'];
+                Next = res['next'];
                 if (first) {
                     document.getElementById('getNextBtnContainer').innerHTML += `
                        <div class="loadMoreButton {{ if eq .Site.Params.navtype "circles"}}buttonLike{{ end }}">
@@ -17,7 +17,7 @@
                     `;
                     return;
                 }
-                if (!nextPage) document.getElementById('getNextBtnContainer').innerHTML = '';
+                if (!Next) document.getElementById('getNextBtnContainer').innerHTML = '';
                 renderArticles(res['articles']);
             });
         }
@@ -53,7 +53,7 @@
             {{ end }}
         {{ end }}
         {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" title='{{ i18n "nextPage" }}'>
+            <a href="{{ .Paginator.Next.URL }}" title='{{ i18n "Next" }}'>
                 {{ if eq $navtype "circles" }}
                     →
                 {{ else }}
