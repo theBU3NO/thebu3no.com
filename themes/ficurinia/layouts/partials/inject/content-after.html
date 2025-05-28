@@ -1,5 +1,6 @@
 <!-- This code will be injected after a post or page content -->
 
+{{ if .Params.display_prev_next | default true }}
 <div id="next-previous-container">
 	<div class="next-post">
 		{{ if .Next }}
@@ -13,3 +14,4 @@
 		{{ end }}
 	</div>
 </div>
+{{ end }}
