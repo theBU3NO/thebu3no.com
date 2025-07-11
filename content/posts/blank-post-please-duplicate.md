@@ -10,11 +10,11 @@ image: /robits/sunglasses.svg  #angry, astonished, clown, content, crying, dumb,
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: true
+# link: [text](url) will not work inside another shortcode i.e. text coloring
 # {{< image file="filename.webp" title="text" >}}
 # {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
+# links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 # {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, brown
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
-# links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 ---
 writy stuff goes here
-

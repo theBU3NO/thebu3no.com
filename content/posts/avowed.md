@@ -18,7 +18,7 @@ draft: false
 
 i don't know. what do i have to write about? do i have an interesting opinion about anything? would my {{< style word="anxiety" type="dark-grey" >}} even permit me to post an interesting opinion online if i did?
 
-this website is my mid-life crisis. i've spent nearly my whole existence being {{< style word="passionate" type="pink" >}} -- pretty much strictly about games. it just seems like i should probably do something besides only playing them. plus that whole human desire to leave something behind after i go -- thing, and i'm not buying my name on an ohio state university building at this rate.
+this website is my mid-life crisis. i've spent nearly my whole existence being {{< style word="passionate" type="pink" >}} -- pretty much strictly about games. it just seems like i should probably do something besides only playing them. plus that whole human desire to leave something behind after i go -- thing. i'm not buying my name on an ohio state university building at this rate but i can easily secure a spot in the wayback machine. man i wish i could find my old geocities page.
 
 avowed was very ok. ok? listen. i'm not one of the great minds of our time. when i finish a book i don't find that all the knowledge and morals have slipped to the tip of my tongue. i enjoyed the book or i didn't. i may or may not be able to conjure two other works to call it a 'cross between.'
 
