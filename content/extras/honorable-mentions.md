@@ -30,3 +30,7 @@ destruction derby (1995) and more recently: wreckfest
 divinity original sin 2 {{< style word="//beating this on tactician is one of my favorite achievements" type="grey" >}}
 
 final fantasy tactics
+
+root: digital {{< style word="//i love this game so much that i played a lot of it with random strangers online, a rarity for a board type game" type="grey" >}}
+
+armello {{< style word="//just read what i said about root again" type="grey" >}}
