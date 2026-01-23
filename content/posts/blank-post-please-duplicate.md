@@ -16,5 +16,8 @@ draft: true
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 # {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, brown
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
+# patch notes
+# {{< style word="-" type="red" >}}title{{< style word="words" type="light-grey" >}}
+# {{< style word="+" type="green" >}}title{{< style word="words" type="light-grey" >}}
 ---
 writy stuff goes here
