@@ -1130,6 +1130,9 @@ padding-inline-start: 0px;
 
 #games li {
     margin: 0;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
     }
 
 a {
