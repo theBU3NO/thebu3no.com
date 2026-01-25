@@ -1116,11 +1116,29 @@ display: flex;
 flex-wrap: wrap;
 align-items: baseline;
 column-gap: 20px;
+row-gap: 20px;
 }
 
-#games > * {
+row-gap: 20px;
+}
+
+@media screen and (max-width: 430px) {
+   #games > * {
+    flex: 1 1 90%;
+}
+    }
+
+@media screen and (min-width: 431px) {
+   #games > * {
+    flex: 1 1 45%;
+}
+    }
+
+    @media screen and (min-width: 768px) {
+   #games > * {
     flex: 1;
 }
+    }
 
 #games ul {
 list-style: none;
