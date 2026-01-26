@@ -50,7 +50,7 @@ draft: false
 
 {{< style word="=" type="yellow" >}}marathon {{< style word="//arc raiders did this game nasty style. i'm gonna leave this on the list for now, just a slight balance adjustment. i got real inflated for a new bungie game but the air has been squeaking out. i'm completely in love with the art direction and the cyber easethetics and all that shit, and i'm 100% going to try it, i just have a suspicion that the zero dollars for the prerelease test they announced is all they're gonna get from me" type="grey" >}}
 
-{{< style word="-" type="red" >}}dune: imperium {{< style word="i'm pretty certain this is one of the all-time best deck building games, i just get sleepy whenever i try to play it." type="grey" >}}
+{{< style word="-" type="red" >}}dune: imperium {{< style word="//i'm pretty certain this is one of the all-time best deck building games, i just get sleepy whenever i try to play it." type="grey" >}}
 
 {{< style word="^" type="blue" >}}root promoted to all-time favorite
 
