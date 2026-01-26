@@ -20,8 +20,6 @@ draft: false
 # {{< style word="=" type="yellow" >}}title balanced {{< style word=" //words" type="grey" >}}
 ---
 
-&copy;
-
 {{< style word="-" type="red" >}}towerborne {{< style word="//once again i convinced myself that i will surely organize some friends to play this fun multiplayer game with me, and once again i find myself wanting. my favorite part about towerborne was that i could make myself green with long ears so i could role play a goblin" type="grey" >}}
 
 {{< style word="+" type="green" >}}total war: warhammer 40k {{< style word="//oh shit oh fuck oh shit. i was really into 40k as a lad. i was really against 40k as a chap. i think this game is going to be really fuckin good as a bloke" type="grey" >}}
