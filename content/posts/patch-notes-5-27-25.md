@@ -15,15 +15,15 @@ draft: false
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 ---
 
-{{< style word="-" type="red" >}}marvel rivals {{< style word="//my friends are no longer playing this, and that's the only reason i was interested" type="light-grey" >}}
+{{< style word="-" type="red" >}}marvel rivals {{< style word="//my friends are no longer playing this, and that's the only reason i was interested" type="grey" >}}
 
-{{< style word="^" type="blue" >}}heroes of the storm promoted to all-time favorite {{< style word="//by far my most played competitive game, will always love it but there would have to be some pretty big news to keep my interest at the moment" type="light-grey" >}}
+{{< style word="^" type="blue" >}}heroes of the storm promoted to all-time favorite {{< style word="//by far my most played competitive game, will always love it but there would have to be some pretty big news to keep my interest at the moment" type="grey" >}}
 
-{{< style word="-" type="red" >}}keyforge {{< style word="//great card game, my hype bandwidth is just taken up by others right now: hubworld: aidalon, warlord, and sorcery" type="light-grey" >}}
+{{< style word="-" type="red" >}}keyforge {{< style word="//great card game, my hype bandwidth is just taken up by others right now: hubworld: aidalon, warlord, and sorcery" type="grey" >}}
 
-{{< style word="-" type="red" >}}mario party jamboree {{< style word="//is it finally time? i think it's time for me to give up on my nintendo dreams. i just don't have the friend group or the finances to support a full-priced suite of games on a separate system. i love the parties and the karts and the wonders, but i routinely find just as much enjoyment from indie games at a fraction of the price on a device that supports multiple ecosystems. don't get me wrong, this is purely a me thing. i'm a budget gamer and a minimalist, and modern nintendo has just never worked out with my lifestyle." type="light-grey" >}}
+{{< style word="-" type="red" >}}mario party jamboree {{< style word="//is it finally time? i think it's time for me to give up on my nintendo dreams. i just don't have the friend group or the finances to support a full-priced suite of games on a separate system. i love the parties and the karts and the wonders, but i routinely find just as much enjoyment from indie games at a fraction of the price on a device that supports multiple ecosystems. don't get me wrong, this is purely a me thing. i'm a budget gamer and a minimalist, and modern nintendo has just never worked out with my lifestyle." type="grey" >}}
 
-{{< style word="+" type="green" >}}albion online {{< style word="//post warborne test drought. warborne is just absolutely made for me, but i definitely have concerns, especially the queue system, balance, and pay to win. i played so much for a month during the playtest and i still want more. albion is probably just to hold me over until the next test" type="light-grey" >}}
+{{< style word="+" type="green" >}}albion online {{< style word="//post warborne test drought. warborne is just absolutely made for me, but i definitely have concerns, especially the queue system, balance, and pay to win. i played so much for a month during the playtest and i still want more. albion is probably just to hold me over until the next test" type="grey" >}}
 
 i was going to have a separate page for these dumb little patch notes just for fun, but then i started writing stuff about each game i added or removed and it seemed like i may as well just post it to the blog. content! i've got a backlog of previous changes i'm going to put here, then i'll make new posts for them in the future. i'm still going to do a link to a list of some of my all-time favorite games that i don't want to keep on the list all the time.
 
