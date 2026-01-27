@@ -14,7 +14,7 @@ infiniteScrolling = false #true doesn't work idk
 showTags = false  # show the Tags menu item; default true
 imageInArticlePreview = true  # show images in article preview; default false
 fitImageInArticlePreview = true  # make article preview images fit the article preview instead of getting cropped
-showRss = false
+showRss = true
 contentWidth = "800px"  # maximum width of the site content, css syntax
 paperCards = false  # enable paper card style; default false
 buttonTags = false  # enable button tag style; default false
@@ -31,6 +31,13 @@ searchMenuLink = false  # add a search link to the navigation menu; requires ena
 mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
 tocBeforeImage = false  # show the table of contents before the main article image; default false
 enableFeatured = true # featured articles pin to the top of the home page
+
+  [params.author]
+    email = 'howdy.partner436@slmail.me'
+    name = 'theBU3NO'
+
+[outputs]
+  home = ['html', 'rss']
 
 [privacy]
   [privacy.disqus]
