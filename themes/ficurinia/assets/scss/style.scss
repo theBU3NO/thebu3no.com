@@ -44,6 +44,10 @@ $mono_font_mult:  {{ .Site.Params.monoFontSizeMultiplier  | default 1.0 }};
     color: var(--default_fg);
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body, html {
     font-family: $symbols_font, $main_font, monospace;
     font-size: $base_font_size * $main_font_mult;
