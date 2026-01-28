@@ -9,11 +9,8 @@
     
     {{ $image := .Site.Params.icon512 | default "/img/icon.svg" }}
     {{ if .Params.Image }}
-        {{ if or (hasPrefix .Params.Image "/") (hasPrefix .Params.Image "http://") (hasPrefix .Params.Image "https://") }}
-            {{ $image = replace .Params.Image ".svg" ".png" }}
-        {{ else }}
-            {{ $image = print .Permalink "/" replace .Params.Image ".svg" ".png" }}
-        {{ end }}
+        {{ $file := replace .Params.Image ".svg" ".png" }}
+        {{ $image = path.Join "/robits/png" $file }}
     {{ end }}
     <meta name="twitter:image"
         content="{{ $image | absURL }}" />
