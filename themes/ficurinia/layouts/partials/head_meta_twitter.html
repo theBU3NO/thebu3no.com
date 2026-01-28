@@ -20,7 +20,7 @@
     {{ if .Params.description }}
         <meta name="twitter:description" content="{{ .Params.description }}" />
     {{ else }}
-        <meta name="twitter:description" content="{{ substr .Summary 0 160 }}" />
+        <meta name="twitter:description" content="{{ substr .Summary 0 160 | htmlUnescape | safeHTML }}" />
     {{ end }}
 {{ else }}
     <meta name="twitter:title"
