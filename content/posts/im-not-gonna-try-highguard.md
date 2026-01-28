@@ -1,9 +1,13 @@
 ---
 title: "i'm not gonna try highguard"
+summary: "highguard looks cool and neat and interesting and innovative.
+
+i'm not interested in a 3v3 competitive shooter. that's all there is to it."
 date: 2026-01-28  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🎮video games
 image: /robits/clown.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
+images: /robits/clown.svg
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: false
