@@ -6,7 +6,7 @@
     {{ if .Params.description }}
         <meta name="description" content="{{ .Params.description }}" />
     {{ else }}
-        <meta name="description" content="{{ substr .Summary 20 }}" />
+        <meta name="description" content="{{ substr .Summary 20 | htmlUnescape | safeHTML }}" />
     {{ end }}
 {{ else }}
     {{ if .Site.Params.description }}
