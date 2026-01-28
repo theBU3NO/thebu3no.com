@@ -23,7 +23,7 @@
             <div class="pointer"> </div>
             <div id="links">
                 {{ if .Site.Params.showRss | default true }}
-                    {{- partial "iconlink" (dict "Identifier" "rss" "Name" "RSS" "URL" "/index.xml") -}}
+                    {{- partial "iconlink" (dict "Identifier" "rss" "Name" "RSS" "URL" "/posts/index.xml") -}}
                 {{ end }}
                 {{ range .Site.Params.links }}
                     {{- partial "nerdlink" . -}}
