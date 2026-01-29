@@ -1,5 +1,6 @@
 ---
 title: "save your pics in cloudflare like you just don't care"
+summary: "i want to post and store random pictures and screenshots somewhere without any hassle and for free because i'm ridiculous"
 date: 2024-04-17  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

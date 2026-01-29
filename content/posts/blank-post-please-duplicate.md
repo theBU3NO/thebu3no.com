@@ -1,5 +1,6 @@
 ---
 title: "title"
+summary: "what the link preview says"
 date: 2025-01-01  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

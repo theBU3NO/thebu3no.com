@@ -1,5 +1,6 @@
 ---
 title: "blog like nobody's watching"
+summary: "i've made a dumb website for my custom domain. hooray."
 date: 2023-11-01  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

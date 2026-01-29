@@ -1,5 +1,6 @@
 ---
 title: "this article is about avowed, surely"
+summary: "avowed was very ok. ok? listen. i'm not one of the great minds of our time."
 date: 2025-02-27  #yyyy-mm-ddthh:mm:ss-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

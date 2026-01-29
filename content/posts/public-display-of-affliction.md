@@ -1,5 +1,6 @@
 ---
 title: "screensharts vol. 1 - public display of affliction"
+summary: "a bunch of screenshots where i did all right"
 date: 2024-04-24  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🎮video games
