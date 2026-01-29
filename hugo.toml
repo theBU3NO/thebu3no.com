@@ -1,12 +1,12 @@
 baseURL = "https://thebu3no.com/"
 theme = "ficurinia"
 title = "theBU3NO's dumb website"
-description = "thebu3no's personal blog and social links"
 author = "theBU3NO"
 copyright = "2023 © theBU3NO, Hugo theme licensed under [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) @ [GitHub](https://www.github.com/thebu3no/thebu3no.com/tree/dev/themes/ficurinia)"
 # TXkgTmFtZSBpcyBMZWUgUi4gQmFrZXIgYW5kIG9uIEZyaWRheSwgTm92ZW1iZXIgM3JkIGluIHRoZSB5ZWFyIDIwMDMsIEkgYW0gY29weXJpZ2h0aW5nIG15IHBlcnNvbmFsIHdlYnNpdGUgYW5kIGJsb2csIHRoZWJ1M25vLmNvbSAoZ2l0aHViLmNvbS90aGVidTNuby90aGVidTNuby5jb20pLCB1bmRlciB0aGUgcHNldWRvbnltIHRoZUJVM05PLg==
 
 [params]
+description = "theBU3NO's stupid blog"
 paginate = 3  # number of articles per page in the index
 # articleSummary = false  # show a summary in article preview; default true
 # summaryLength = 70  # words for article summaries, summaries have been replaced with the full post content
