@@ -1,5 +1,6 @@
 ---
 title: "patch notes 7/10/25"
+summary: "the party is dead. long live the party"
 date: 2025-07-10  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

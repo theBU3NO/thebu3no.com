@@ -1,5 +1,6 @@
 ---
 title: "patch notes 1/23/2026"
+summary: "i'm a mahjong guy now"
 date: 2025-07-10  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

@@ -1,5 +1,6 @@
 ---
 title: "patch notes 5/27/25"
+summary: "giving up on my nintendo dreams"
 date: 2025-05-27  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website
