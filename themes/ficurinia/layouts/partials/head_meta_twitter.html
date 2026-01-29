@@ -1,4 +1,4 @@
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary" />
 <meta property="twitter:domain"
       content='{{ trim (trim .Site.BaseURL "http://") "https://" }}'
 />
@@ -9,18 +9,18 @@
     
     {{ $image := .Site.Params.icon512 | default "/img/icon.svg" }}
     {{ if .Params.Image }}
-        {{ if or (hasPrefix .Params.Image "/") (hasPrefix .Params.Image "http://") (hasPrefix .Params.Image "https://") }}
-            {{ $image = .Params.Image }}
-        {{ else }}
-            {{ $image = print .Permalink "/" .Params.Image }}
-        {{ end }}
+            {{ $dir := path.Dir .Params.Image }}
+            {{ $file := replace (path.Base .Params.Image) ".svg" ".png" }}
+            {{ $image = path.Join $dir "png" $file }}
     {{ end }}
     <meta name="twitter:image"
         content="{{ $image | absURL }}" />
+    <meta property="twitter:image:width" content="64" />
+    <meta property="twitter:image:height" content="64" />
     {{ if .Params.description }}
         <meta name="twitter:description" content="{{ .Params.description }}" />
     {{ else }}
-        <meta name="twitter:description" content="{{ substr .Summary 0 160 }}" />
+        <meta name="twitter:description" content="{{ substr .Summary 0 160 | htmlUnescape | safeHTML }}" />
     {{ end }}
 {{ else }}
     <meta name="twitter:title"
@@ -29,5 +29,7 @@
         <meta name="twitter:description" content="{{ .Site.Params.description }}" />
     {{ end }}
     <meta name="twitter:image"
-        content='{{ .Site.Params.icon512 | default "/img/icon.svg" | absURL }}' />
+      content='{{ "/logo.png" | absURL }}' />
+    <meta property="twitter:image:width" content="64" />
+    <meta property="twitter:image:height" content="64" />
 {{ end }}
