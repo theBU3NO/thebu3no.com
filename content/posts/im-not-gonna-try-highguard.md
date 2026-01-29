@@ -21,9 +21,9 @@ draft: false
 # {{< style word="-" type="red" >}}title{{< style word="words" type="light-grey" >}}
 # {{< style word="+" type="green" >}}title{{< style word="words" type="light-grey" >}}
 ---
-highguard looks cool and neat and interesting and innovative. it looks {{< style word="smooth" type="green" >}}. i don't care if being the last game showcased at the game awards means something to you.
+highguard looks cool and neat and interesting and innovative. it looks {{< style word="smooth" type="green" >}}. being the last game showcased at the game awards means absolutely nothing to me.
 
-i'm not interested in a 3v3 competitive shooter. that's all there is to it.
+i'm just not interested in a 3v3 competitive shooter. that's all there is to it.
 
 well.. ok, that's all there *needs* to be to it but of course there's some bonus bull{{< style word="shit" type="brown" >}}.
 
