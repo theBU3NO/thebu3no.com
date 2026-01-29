@@ -15,8 +15,8 @@
     {{ end }}
     <meta name="twitter:image"
         content="{{ $image | absURL }}" />
-    <meta property="og:image:width" content="64" />
-    <meta property="og:image:height" content="64" />
+    <meta property="twitter:image:width" content="64" />
+    <meta property="twitter:image:height" content="64" />
     {{ if .Params.description }}
         <meta name="twitter:description" content="{{ .Params.description }}" />
     {{ else }}
@@ -30,6 +30,6 @@
     {{ end }}
     <meta name="twitter:image"
       content='{{ "/logo.png" | absURL }}' />
-    <meta property="og:image:width" content="64" />
-    <meta property="og:image:height" content="64" />
+    <meta property="twitter:image:width" content="64" />
+    <meta property="twitter:image:height" content="64" />
 {{ end }}
