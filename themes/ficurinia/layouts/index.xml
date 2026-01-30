@@ -1,5 +1,4 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML -}}
-{{- "<?xml-stylesheet type=\"text/xsl\" href=\"/rss.xsl\"?>" | safeHTML -}}
 {{- $authorEmail := "" -}}
 {{- $authorName := "" -}}
 {{- with site.Params.author -}}
