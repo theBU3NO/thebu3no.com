@@ -18,7 +18,9 @@
     {{ else }}
         rel="noreferrer"
     {{ end }}
-    target="_blank"
+    {{ if ne (lower .Identifier) "rss" }}
+        target="_blank"
+    {{ end }}
     class="nerdlink"
     href="{{ .URL | safeURL }}">
     {{ $icon := index site.Data.supported_icons (lower .Identifier) | safeHTML }}
