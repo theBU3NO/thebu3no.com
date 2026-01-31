@@ -7,12 +7,17 @@
 {{ if .IsPage }}
     <meta name="twitter:title" content="{{ .Title }}" />
     
-    {{ $image := .Site.Params.icon512 | default "/img/icon.svg" }}
+    {{ $image := .Site.Params.icon512 | default "/logo.png" }}
     {{ if .Params.Image }}
-            {{ $dir := path.Dir .Params.Image }}
-            {{ $file := replace (path.Base .Params.Image) ".svg" ".png" }}
-            {{ $image = path.Join $dir "png" $file }}
-    {{ end }}
+    {{ $dir := path.Dir .Params.Image }}
+    {{ $file := replace (path.Base .Params.Image) ".svg" ".png" }}
+    
+    {{/* Reconstructs the path (e.g., /robits/glad.png) */}}
+    {{ $imagePath := path.Join $dir $file }}
+    
+    {{/* Directs the path to your dedicated image host */}}
+    {{ $image = printf "https://images.thebu3no.com%s" $imagePath }}
+{{ end }}
     <meta name="twitter:image"
         content="{{ $image | absURL }}" />
     <meta property="twitter:image:width" content="64" />
@@ -24,7 +29,7 @@
     {{ end }}
 {{ else }}
     <meta name="twitter:title"
-        content='{{ .Site.Title | default "Ficurinia" }}' />
+        content='{{ .Site.Title }}' />
     {{ if .Site.Params.description }}
         <meta name="twitter:description" content="{{ .Site.Params.description }}" />
     {{ end }}

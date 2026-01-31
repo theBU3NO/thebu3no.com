@@ -15,6 +15,7 @@ draft: false
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
 # patch notes YOU HAVE TO PUT A SPACE BETWEEN THE TITLE AND THE WORDS
+display_games: true
 # {{< style word="-" type="red" >}}title removed{{< style word=" //words" type="grey" >}}
 # {{< style word="+" type="green" >}}title added{{< style word=" //words" type="grey" >}}
 # {{< style word="^" type="blue" >}}title promoted to all-time favorite{{< style word=" //words" type="grey" >}}

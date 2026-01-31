@@ -9,6 +9,7 @@ image: /robits/kiss.svg  #angry, astonished, clown, content, crying, dumb, evil,
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: false
+display_games: true
 # {{< image file="filename.webp" title="text" >}}
 # {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
 # {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, brown
