@@ -42,3 +42,6 @@ i took what they gave me and i dared to dream. i foolishly imagined that you mig
 i say this a lot but i'm fully aware that 3v3 being uninteresting is a me problem. my preferences were shaped by tribes 2 and alterac valley and planetside. it just {{< style word="hurts" type="red" >}} when something goes from being ripped straight out of my dreams to just another next in the discovery queue.
 
 i hope highguard is a good game and you enjoy it. 
+
+edit
+1/30: guys they heard me and added 5v5. i'll try it when we get to 12v12. good on them though that was real quick 
