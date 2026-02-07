@@ -23,10 +23,8 @@ display_games: false # PATCH NOTES
 # {{< style word="+" type="green" >}}added title{{< style word=" //words" type="light-grey" >}}
 # {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
 # {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
----
-test
-  
-{{< style word="+" type="green" >}} heroes of might and magic: olden era
+--- 
+{{< style word="+" type="green" >}}heroes of might and magic: olden era
 
 this is not a drill, we have a strategy rpg with {{< style word="ranked pvp" type="red" >}} in late-stage development
 
