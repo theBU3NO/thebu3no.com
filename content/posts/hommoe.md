@@ -36,3 +36,9 @@ age of wonders 4 is a {{< style word="magnificent" type="rainbow" >}} game but t
 
 turns out these guys __are__ going really hard on multiplayer. they have announced that there will be ranked multiplayer for {{< style word="all" type="yellow" >}} of their modes. that is just absolutely unheard of for a turn-based strategy rpg. i haven't seen anything to back me up yet but that gives me a lot of hope. maybe they actually have the dedication to finally solve some of these issues and open up competitive play for this classic genre.
 
+a couple other quick changes while we're here
+
+{{< style word="-" type="red" >}}lego party!{{< style word=" //this one still looks great to me, it just didn't pop off enough societally for a full-price purchase" type="light-grey" >}}
+
+{{< style word="-" type="red" >}}light of motiram{{< style word=" //lol sony straight disappeared it" type="light-grey" >}}
+
