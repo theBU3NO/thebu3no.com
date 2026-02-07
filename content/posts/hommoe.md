@@ -9,7 +9,7 @@ tags:
 image: /robits/nervous.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
-draft: true
+draft: false
 
 # link: [text](url) will not work inside another shortcode i.e. text coloring
 # {{< image file="filename.webp" title="text" >}}
@@ -28,8 +28,11 @@ test
   
 {{< style word="+" type="green" >}} heroes of might and magic: olden era
 
-this is not a drill, we have a strategy rpg with ranked pvp in late-stage development
+this is not a drill, we have a strategy rpg with {{< style word="ranked pvp" type="red" >}} in late-stage development
 
-i remember seeing HOMMOE quite a while ago and being like yeah sure. i loved those games forever ago. i just don't get excited for something like that anymore unless it goes really interesting on multiplayer. you either gotta go full board game mode, or lean into asynchronous play.
+i remember seeing HOMMOE quite a while ago and being like yeah sure. i {{< style word="loved" type="pink" >}} those games forever ago. i just don't get excited for something like that anymore unless it goes really hard on multiplayer or it's like strategy game of the year. you usually either have to go full board game mode and simplify it down, or lean all the way into asynchronous play to accumulate enough descriptor tags to peak me up.
 
-age of wonders 4 is a magnificent game in scope, but that series was never built for multiplayer. i'm not going to dive into all the details, but generally the turns in these types of games are just so long that you (if you're trying to make your game allow for play with other humans) need to either let players do their turns all at the same time, or let them put the game away while everyone else is rotating through their actions. unfortunately this falls apart in various ways when you're trying to have turn-based pvp or co-op battles.  
+age of wonders 4 is a {{< style word="magnificent" type="rainbow" >}} game but that series was never built for multiplayer. i'm not going to dive into all the details, but generally the turns in these types of games are just so long that you (if you're trying to make your game playable with other humans) need to either let players do their turns all at the same time, or let them put the game away while everyone else is rotating through their actions. unfortunately this falls apart in various ways when you're trying to have pvp or co-op battles. instanced combat putting more turns inside your turns complicates things even a bit more.
+
+turns out these guys __are__ going really hard on multiplayer. they have announced that there will be ranked multiplayer for {{< style word="all" type="yellow" >}} of their modes. that is just absolutely unheard of for a turn-based strategy rpg. i haven't seen anything to back me up yet but that gives me a lot of hope. maybe they actually have the dedication to finally solve some of these issues and open up competitive play for this classic genre.
+
