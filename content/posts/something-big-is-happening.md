@@ -5,7 +5,7 @@ date: 2026-02-14  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple pos
 norss: false #only true for pages/extras
 tags:
   - 🎮video games
-image: /robits/problematic.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
+image: /robits/flipped.svg  #angry, astonished, clown, content, crying, dumb, evil, flipped, glad, grin, happy, kiss, love, nerd, nervous, neutral, pirate, problematic, rip, sad, satisfied, silenced, sleep, stunned, sunglasses, surprised, tear, tongue, upset, wink
 featured: false  #pin to home
 weight: 0  #add weight to pin to top or sort pins
 draft: false
@@ -23,7 +23,7 @@ display_games: false # PATCH NOTES
 # {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
 # {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
 ---
-i don't know what popped into your head after you read recently-viral-essay 'something big is happening', but allow me to share the wrong thing to worry about. let me tell you how fucked multiplayer gaming is.
+i don't know what popped into ***your*** head after you read recently-viral-essay ['something big is happening'](https://shumer.dev/something-big-is-happening), but allow me to share the wrong thing to worry about. let me tell you how fucked multiplayer gaming is.
 
 i don't know how the {{< style word="hell" type="red" >}} i'm going to lay out all these dumb thoughts, so let's just start with the second thing i thought of, since the first thing i thought was actually man i hope universal basic income is coming pretty soon.
 

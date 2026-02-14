@@ -17,7 +17,7 @@ draft: true
 # {{< image file="filename.webp" title="text" >}}
 # {{< youtube video="dN5fWLcTezg" channel="thebu3no" title="bonk" >}}
 # links to images and youtube videos will be lightboxed even if you don't use the styled shortcodes
-# {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, brown
+# {{< style word="cool" type="blue" >}} strikethrough, red, blue, yellow, grey, light-grey, dark-grey, hackerman, black, pink, rainbow, green, neon-green, brown
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 
 display_games: false # PATCH NOTES
