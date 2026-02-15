@@ -1,5 +1,5 @@
 ---
-title: "something ping is happening"
+title: "some big ping is happening"
 summary: "i descend into madness about multiplayer games"
 date: 2026-02-14  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 norss: false #only true for pages/extras
