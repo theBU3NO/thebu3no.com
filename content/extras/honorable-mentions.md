@@ -26,6 +26,8 @@ world of warcraft, ffxi, ultima online {{< style word="//i grew up on the intern
 
 guild wars 1 and 2 {{< style word="//i didn't actually play a whole lot of guild wars 1, but i got into the sequel in a big way, almost exclusively playing the wvw pvp mode for a couple years" type="grey" >}}
 
+tetris attack! and i guess pokemon puzzle league too {{< style word="//my favorite of all the tetris-puyo-bobble-match-whatever-type-puzzlers. panel de pon and puzzle league are the same thing but i think it was best dressed in the yoshi's island branding." type="grey" >}}
+
 destruction derby (1995) and more recently: wreckfest {{< style word="//not much beats being allowed to t-bone somebody" type="grey" >}}
 
 divinity original sin 2 {{< style word="//beating this on tactician is one of my favorite achievements" type="grey" >}}
