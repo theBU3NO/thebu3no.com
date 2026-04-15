@@ -32,10 +32,12 @@ destruction derby (1995) and more recently: wreckfest {{< style word="//not much
 
 divinity original sin 2 {{< style word="//beating this on tactician is one of my favorite achievements" type="grey" >}}
 
-final fantasy tactics 
+final fantasy tactics {{< style word="//blame yourself or god" type="grey" >}}
 
 root: digital {{< style word="//i love this game so much that i played a lot of it with random strangers online, a rarity for a board type game" type="grey" >}}
 
-armello {{< style word="//just read what i said about root again" type="grey" >}}
+armello {{< style word="//i also love this game so much that i played a lot of it with random strangers online, but it's not as good as root probably. the rng feels worse in my opinion. often you're really hoping for a specific card to show up, and you're tossing more dice." type="grey" >}}
 
-titanfall 2
+solium infernum {{< style word="//fuck man. such an incredible social board type strategy game that nobody has heard of or plays. i just don't have enough social battery to organize games with strangers without matchmaking involved, but if i did, this would be the game i'm playing. look up gameboys from hell on rock, paper, shotgun with quinns (of shut up and sit down fame)" type="grey" >}}
+
+titanfall 2 {{< style word="//i tried this one too late. i miss out on a lot of gems with my broke minimalist ways, only investing in something i know i'll love forever or waiting for it to get cheap enough for a fling. i regret not experiencing the multiplayer when it was popular, but i'm glad i played the story eventually. rip" type="grey" >}}
