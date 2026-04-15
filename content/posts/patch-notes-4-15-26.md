@@ -29,3 +29,5 @@ display_games: true
 {{< style word="-" type="red" >}}ashes of creation{{< style word=" //oof. holy shit lol" type="grey" >}}
 
 {{< style word="+" type="green" >}}s&box{{< style word=" //i forgot about this one for a while. i got in for testing a couple years ago but didn't really do much. this, uh, package? is an inevitability. i mean it's the sequel to garry's mod, it's going to be around for a long time whether it becomes the next roblox or not. then you've got the ability to ship games outside of it's own ecosystem to really make things interesting. this feels like some kind of moment to me. " type="grey" >}}
+
+{{< style word="^" type="blue" >}}tetris attack added as all-time favorite{{< style word=" //words" type="grey" >}}
