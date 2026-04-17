@@ -43,7 +43,7 @@ this is where i would usually abandon a topic. quick before stumbling around a g
 
 i get so fucking {{< style word="pissed" type="red" >}} at those videos where someone roasts the way that someone else is cooking their rice. 
 
-if your ego can drive your body to audibly express that breaking spaghetti before putting it into the pot &nbsp;&nbsp;&nbsp; actually &nbsp;&nbsp;&nbsp;&nbsp; matters &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fucking &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at all?  i think i might actually hate you.
+if your ego can drive your body to audibly express that breaking spaghetti before putting it into the pot &nbsp;&nbsp; actually &nbsp;&nbsp;&nbsp; matters &nbsp;&nbsp;&nbsp;&nbsp; fucking &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at all?  i think i might actually hate you.
 
 the way i feel about that is a tiny bit like the way i feel when someone's whole life and personality are defined by something like anime, or ford trucks or whatever. it's just a gross little pang i feel in my soul. 
 
