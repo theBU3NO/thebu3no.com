@@ -23,6 +23,8 @@ display_games: false # PATCH NOTES
 # {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
 # {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
 ---
+[https://store.steampowered.com/app/1867240/WARDOGS/](https://store.steampowered.com/app/1867240/WARDOGS/)
+
 i haven't played arma or squad or any of the realistic cooperative stuff. no tarkov. no hell let loose. i have a hard time committing to a squad of people and engaging in voice chat with my {{< style word="anxiety" type="dark-grey" >}}. 
 
 wardogs is my absolute shit though. the closest thing i can personally compare it to is planetside 2, especially after they added the base building stuff a few years ago. it's got teamwork, but {{< style word="intense" type="red" >}} collaboration not expected of you as much as in something like squad or a game with a smaller player count.
