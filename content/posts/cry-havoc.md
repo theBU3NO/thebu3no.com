@@ -25,7 +25,7 @@ display_games: false # PATCH NOTES
 ---
 i haven't played arma or squad or any of the realistic cooperative stuff. no tarkov. no hell let loose. i have a hard time committing to a squad of people and engaging in voice chat with my {{< style word="anxiety" type="dark-grey" >}}. 
 
-wardogs is my absolute shit though. the closest thing i can personally compare it to is planetside 2, especially after they added the base building stuff a few years ago. it's got teamwork, but {{< style word="intrense" type="red" >}} collaboration not expected of you as much as in something like squad or a game with a smaller player count.
+wardogs is my absolute shit though. the closest thing i can personally compare it to is planetside 2, especially after they added the base building stuff a few years ago. it's got teamwork, but {{< style word="intense" type="red" >}} collaboration not expected of you as much as in something like squad or a game with a smaller player count.
 
 i've heard it's a lot like arma reforger and that seems probably true, but i don't know anything about the way guns and other mechanics work in those games. all i can say is that wardogs is perfect and you're probably taking yourself too seriously if you think it's dumb.
 
@@ -33,7 +33,7 @@ from what others have said and from what i am imagining, wardogs is snuck betwee
 
 wardogs is more than it's modern military gameplay anyway. in fact i'd prefer it was something else. escaping to sci-fi or fantasy over real human conflict suits me just fine.
 
-no the real treat here is navigating the {{< style word="economy" type="green" >}}. it's a sandbox (circle) and they reward you for whatever you decide to do. sure you can get into a fight. you can also just peep with some binoculars or slap some bandages on your friends. push your tonka trucks around and build a sand castle. just sit somewhere really, as long as you're in the box (circle) you're getting {{< style word="paid" type="green" >}}.
+no the real treat here is navigating the economy. it's a {{< style word="sandbox" type="brown" >}} (circle) and they reward you for whatever you decide to do. sure you can get into a fight. you can also just peep with some binoculars or slap some bandages on your friends. push your tonka trucks around and build a sand castle. just sit somewhere really, as long as you're in the box (circle) you're getting {{< style word="paid" type="green" >}}.
 
 the vehicles are their drivers are especially meaningful, and i don't just mean that the tanks are good. transports are necessary. the bases you spawn at are {{< style word="fuck off" type="yellow" >}} away from the center. you need soldiers in the middle to score, and you need supplies in the bases to build. and guess what? you'll get paid when you drop someone off. you'll get paid when you deliver a pallet of ammunition. you'll get paid just for surviving the trip and showing back up at base.
 
