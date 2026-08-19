@@ -23,9 +23,11 @@ display_games: false # PATCH NOTES
 # {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
 # {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
 ---
+[https://store.steampowered.com/app/1867240/WARDOGS/](https://store.steampowered.com/app/1867240/WARDOGS/)
+
 i haven't played arma or squad or any of the realistic cooperative stuff. no tarkov. no hell let loose. i have a hard time committing to a squad of people and engaging in voice chat with my {{< style word="anxiety" type="dark-grey" >}}. 
 
-wardogs is my absolute shit though. the closest thing i can personally compare it to is planetside 2, especially after they added the base building stuff a few years ago. it's got teamwork, but {{< style word="intense" type="red" >}} collaboration not expected of you as much as in something like squad or a game with a smaller player count.
+wardogs is my absolute shit though. the closest thing i can personally compare it to is planetside 2, especially after they added the base building stuff a few years ago. it's got teamwork, but {{< style word="intense" type="red" >}} collaboration is not expected of you as much as in something like squad or a competitive game with a smaller player count. in my opinion it's the perfect combination of a casual floor with a high ceiling for organized play.
 
 i've heard it's a lot like arma reforger and that seems probably true, but i don't know anything about the way guns and other mechanics work in those games. all i can say is that wardogs is perfect and you're probably taking yourself too seriously if you think it's dumb.
 
@@ -45,7 +47,9 @@ the game just feels so rewarding. i think it's because of the rewards. i mean of
 
 i was making a {{< style word="silly" type="rainbow" >}} comedy joke before when i said it was perfect. of course i have some concerns. almost all i've talked about is the cash incentive, and that doesn't mean anything if you can't do anything fun with it. you can only bring {{< style word="risk" type="red" >}}-and-{{< style word="reward" type="green" >}} into the conversation if it really means something to you. they need to deliver on skins and collectables worth buying, and stick to their guns about not selling them for real life monies. they've said a lot of very promising shit in their videos but if they don't back it up then all it proves is they have a great marketing team.
 
-i also have a feeling it's going to be really hard to balance this sprawling meta economy. like, a whole team spamming tanks might be an issue? but maybe there are enough tools in-game to deal with anything. and you know what? the whole match is like an hour, and you can just leave and join another one. there's probably some guy with 100 missile launchers that would love to take your spot in that server. the amount of money you get for specifically winning the round is a drop in the bucket of one pretty decent life where you got a few kills, so if they want to spend all the money they farmed for one match, i'll let them have it.
+i also have a feeling it's going to be really hard to balance this sprawling meta economy. like, a whole team spamming tanks might be an issue? but maybe there are enough tools in-game to deal with anything. and you know what? the whole match is like an hour, and you can just leave and join another one. there's probably some guy with 100 missile launchers that would love to take your spot in that server. the amount of money you get for specifically winning the round is a drop in the bucket of one pretty decent life where you got a few kills, so if they want to spend all the money they farmed for one match, i'll let them have it. 
+
+if you try not to take it too seriously i think you'll have a blast in wardogs.
 
 we get another test next weekend so i don't have to be {{< style word="depressed" type="black" >}} for a whole month straight til it launches. this singular game even convinced me to pay $800 for a stupid 5070 gpu. it ran pretty fuckin ok on {{< style word="potato" type="brown" >}} mode with my 3060 ti and 5700x3d, but there were some spots when it would drop down to 60-70 fps and not feel amazing. a 5070 should let me upgrade the trees from looking like i drew them with crayons and keep the frame rate from dropping under 90 which is the sweet spot for me. 120+ is great but i can't stay immersed in 60 fps anymore, and 45 looks nightmarish.
 
