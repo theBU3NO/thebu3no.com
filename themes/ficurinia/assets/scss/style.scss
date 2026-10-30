@@ -1288,8 +1288,19 @@ a {
   font-weight: bold;
 }
 
+.patch-symbol.patch-blue {
+  color: #87ecec;
+  font-weight: bold;
+}
+
+.patch-symbol.patch-yellow {
+  color: #ffc07d;
+  font-weight: bold;
+}
+
 .patch-title {
-  color: #f0f6fc;
+  color: var(--default_fg);
+  font-weight: normal;
 }
 
 .patch-comment,
@@ -1317,3 +1328,4 @@ a {
   color: #58a6ff;
   text-decoration: underline;
 }
+

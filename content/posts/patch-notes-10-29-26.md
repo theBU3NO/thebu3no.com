@@ -18,10 +18,9 @@ draft: false
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 
 display_games: true # PATCH NOTES
-# {{< style word="-" type="red" >}}removed title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="+" type="green" >}}added title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
+# {{< patch "+" "game" >}}words{{< /patch >}}
+# {{< patch "+" "game" "-" "other game" >}}words{{< /patch >}}
+# symbols + (added) - (removed) ^ (promoted) = (adjusted)
 ---
 {{< patch "+" "world of warcraft: forever" >}} 
 i need to mention wow forever before november 4th or i might not get the opportunity for quite some time. look i'm not going to kid myself and expect to play this for years. but i'm sayin' there's a chance. the amount i played in the beta is a little obscene for someone fully cognizant of it's ephemeral nature. then again i did the same thing for warborne above ashes and now we're really talking about ephemeral.

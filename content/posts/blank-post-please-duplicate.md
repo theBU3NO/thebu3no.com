@@ -21,9 +21,8 @@ draft: true
 # {{< start-columns >}} {{< column >}} {{< end-columns >}}
 
 display_games: false # PATCH NOTES
-# {{< style word="-" type="red" >}}removed title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="+" type="green" >}}added title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="^" type="blue" >}}promoted title{{< style word=" //words" type="light-grey" >}}
-# {{< style word="=" type="yellow" >}}updated title{{< style word=" //words" type="light-grey" >}}
+# {{< patch "+" "game" >}}words{{< /patch >}}
+# {{< patch "+" "game" "-" "other game" >}}words{{< /patch >}}
+# symbols + (added) - (removed) ^ (promoted) = (adjusted)
 ---
 writy stuff goes here

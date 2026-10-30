@@ -25,18 +25,25 @@
 {{ end }}
 
 {{ $total := len $params }}
+{{ $hasBody := gt (len (strings.TrimSpace .Inner)) 0 }}
 
 <div class="patch-entry">
   {{ range $idx, $item := $params }}
     {{ $isLast := eq (add $idx 1) $total }}
+
+    {{/* Color matching for +, -, ^, and = */}}
     {{ $colorClass := "patch-green" }}
     {{ if or (eq $item.symbol "-") (eq $item.symbol "red") }}
       {{ $colorClass = "patch-red" }}
+    {{ else if or (eq $item.symbol "^") (eq $item.symbol "blue") }}
+      {{ $colorClass = "patch-blue" }}
+    {{ else if or (eq $item.symbol "=") (eq $item.symbol "yellow") }}
+      {{ $colorClass = "patch-yellow" }}
     {{ end }}
 
     <div class="patch-line">
-      <span class="patch-symbol {{ $colorClass }}">{{ $item.symbol }}</span><strong class="patch-title">{{ $item.title }}</strong>
-      {{- if $isLast }} <span class="patch-comment">// <span class="patch-body">{{ $.Inner | markdownify }}</span></span>{{ end -}}
+      <span class="patch-symbol {{ $colorClass }}">{{ $item.symbol }}</span><span class="patch-title">{{ $item.title }}</span>
+      {{- if and $isLast $hasBody }} <span class="patch-comment">// <span class="patch-body">{{ $.Inner | markdownify }}</span></span>{{ end -}}
     </div>
   {{ end }}
 </div>

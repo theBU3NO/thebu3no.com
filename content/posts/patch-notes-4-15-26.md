@@ -22,14 +22,14 @@ display_games: true
 # {{< style word="=" type="yellow" >}}title balanced {{< style word=" //words" type="grey" >}}
 ---
 
-{{< style word="-" type="red" >}}marathon {{< style word="//it's just not happening. at this point for me to be interested in marathon they would have to be adding deathmatch lobbies and we know that's not coming. i think it'd be just swell though. you would still have to engage with the extraction mode to find the gear you like, but the stats would all be equalized since you're not dealing with the risk-and-reward mechanics. it's all reward baby. " type="grey" >}}
+{{< patch "-" "marathon" >}}it's just not happening. at this point for me to be interested in marathon they would have to be adding deathmatch lobbies and we know that's not coming. i think it'd be just swell though. you would still have to engage with the extraction mode to find the gear you like, but the stats would all be equalized since you're not dealing with the risk-and-reward mechanics. it's all reward baby.{{< /patch >}}
 
-{{< style word="+" type="green" >}}wardogs{{< style word=" //i haven't been this hyped for some time now. 30v30v30 shooty faction pvp with an economy. every decision this game made is right up my alley. well it's not sci-fi but i probably would have hyped my ass of it was. a little planetside, a little battlefield, and the devs are saying all the right things as far as monetization goes. there's a player economy with all the risks and rewards you could desire. earn money on your performance, and spend it on gear to go again. i think they'll totally flop on balancing the economy and settle into it as time goes on. there are seasons of course, that magical replacement for the vertical progression treadmill." type="grey" >}}
+{{< patch "+" "wardogs" >}}i haven't been this hyped for some time now. 30v30v30 shooty faction pvp with an economy. every decision this game made is right up my alley. well it's not sci-fi but i probably would have hyped my ass of it was. a little planetside, a little battlefield, and the devs are saying all the right things as far as monetization goes. there's a player economy with all the risks and rewards you could desire. earn money on your performance, and spend it on gear to go again. i think they'll totally flop on balancing the economy and settle into it as time goes on. there are seasons of course, that magical replacement for the vertical progression treadmill.{{< /patch >}}
 
-{{< style word="-" type="red" >}}ashes of creation{{< style word=" //oof. holy shit lol" type="grey" >}}
+{{< patch "-" "ashes of creation" >}}oof. holy shit lol{{< /patch >}}
 
-{{< style word="+" type="green" >}}s&box{{< style word=" //i forgot about this one for a while. i got in for testing a couple years ago but didn't really do much. this, uh, package? is an inevitability. i mean it's the sequel to garry's mod, it's going to be around for a long time whether it becomes the next roblox or not. then you've got the ability to ship games outside of it's own ecosystem to really make things interesting. this feels like some kind of moment to me. " type="grey" >}}
+{{< patch "+" "s&box" >}}i forgot about this one for a while. i got in for testing a couple years ago but didn't really do much. this, uh, package? is an inevitability. i mean it's the sequel to garry's mod, it's going to be around for a long time whether it becomes the next roblox or not. then you've got the ability to ship games outside of it's own ecosystem to really make things interesting. this feels like some kind of moment to me.{{< /patch >}}
 
-{{< style word="^" type="blue" >}}tetris attack added as all-time favorite
+{{< patch "^" "tetris attack added to all-time favorites" >}}{{< /patch >}}
 
-{{< style word="+" type="green" >}}fire emblem{{< style word=" //see next post" type="grey" >}}
+{{< patch "+" "fire emblem" >}}see next post{{< /patch >}}
