@@ -1,0 +1,49 @@
+{{ $params := slice }}
+
+{{/* 1. Support the shorthand add/remove named syntax */}}
+{{ if .Get "add" }}
+  {{ $params = $params | append (dict "symbol" "+" "title" (.Get "add")) }}
+  {{ if .Get "remove" }}
+    {{ $params = $params | append (dict "symbol" "-" "title" (.Get "remove")) }}
+  {{ end }}
+{{ else }}
+  {{/* 2. Dynamic positional support for unlimited items: symbol, title, symbol, title... */}}
+  {{ range $i, $val := .Params }}
+    {{ if eq (mod $i 2) 0 }}
+      {{ $sym := $val }}
+      {{ $name := index $.Params (add $i 1) | default "" }}
+      {{ if $name }}
+        {{ $params = $params | append (dict "symbol" $sym "title" $name) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Fallback if user only passed named type/title */}}
+{{ if eq (len $params) 0 }}
+  {{ $params = $params | append (dict "symbol" (.Get "type" | default "+") "title" (.Get "title" | default "untitled")) }}
+{{ end }}
+
+{{ $total := len $params }}
+{{ $hasBody := gt (len (strings.TrimSpace .Inner)) 0 }}
+
+<div class="patch-entry">
+  {{ range $idx, $item := $params }}
+    {{ $isLast := eq (add $idx 1) $total }}
+
+    {{/* Color matching for +, -, ^, and = */}}
+    {{ $colorClass := "patch-green" }}
+    {{ if or (eq $item.symbol "-") (eq $item.symbol "red") }}
+      {{ $colorClass = "patch-red" }}
+    {{ else if or (eq $item.symbol "^") (eq $item.symbol "blue") }}
+      {{ $colorClass = "patch-blue" }}
+    {{ else if or (eq $item.symbol "=") (eq $item.symbol "yellow") }}
+      {{ $colorClass = "patch-yellow" }}
+    {{ end }}
+
+    <div class="patch-line">
+      <span class="patch-symbol {{ $colorClass }}">{{ $item.symbol }}</span><span class="patch-title">{{ $item.title }}</span>
+      {{- if and $isLast $hasBody }} <span class="patch-comment">// <span class="patch-body">{{ $.Inner | markdownify }}</span></span>{{ end -}}
+    </div>
+  {{ end }}
+</div>

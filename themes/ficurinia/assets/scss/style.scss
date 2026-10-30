@@ -177,6 +177,10 @@ article, .articlePreview {
         border: 1px solid var(--default_stroke);
         border-radius: 3px;
     }
+    p {
+        line-height: 1.75;
+        margin-bottom: 1.4rem;
+    }
 }
 
 code {
@@ -1263,4 +1267,65 @@ a {
 	color: #FFD3AC;
 }
 
+/* --- Minimalist Plain-Text Patch Notes --- */
+
+.patch-entry {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.patch-line {
+  margin-bottom: 0.2rem;
+}
+
+.patch-symbol.patch-green {
+  color: #5af78e;
+  font-weight: bold;
+}
+
+.patch-symbol.patch-red {
+  color: #ff5c57;
+  font-weight: bold;
+}
+
+.patch-symbol.patch-blue {
+  color: #87ecec;
+  font-weight: bold;
+}
+
+.patch-symbol.patch-yellow {
+  color: #ffc07d;
+  font-weight: bold;
+}
+
+.patch-title {
+  color: var(--default_fg);
+  font-weight: normal;
+}
+
+.patch-comment,
+.patch-body {
+  color: #8b949e;
+}
+
+/* Keeps the first line inline directly after the comment slashes */
+.patch-body,
+.patch-body p:first-child {
+  display: inline;
+}
+
+/* Subsequent paragraphs break naturally below */
+.patch-body p + p {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.patch-body strong {
+  color: #c9d1d9;
+}
+
+.patch-body a {
+  color: #58a6ff;
+  text-decoration: underline;
+}
 
