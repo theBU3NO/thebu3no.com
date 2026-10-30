@@ -1,0 +1,18 @@
+{{ $symbol := .Get "type" | default (.Get 0 | default "+") }}
+{{ $title := .Get "title" | default (.Get 1) }}
+{{ $colorClass := "patch-green" }}
+{{ if or (eq $symbol "-") (eq $symbol "red") }}
+  {{ $colorClass = "patch-red" }}
+{{ end }}
+
+<div class="patch-row">
+  <div class="patch-meta">
+    <span class="patch-symbol {{ $colorClass }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong>
+  </div>
+  <div class="patch-content">
+    <span class="patch-prefix">//</span>
+    <div class="patch-body">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>
