@@ -38,7 +38,7 @@ i was going to have a separate page for these dumb little patch notes just for f
 
 {{< patch "+" "warborne above ashes" >}}albion online meets planetside 2, yes yes yes yes yes{{< /patch >}}
 
-{{< "^" "wreckfest buffed to all-time favorite" "+" "wreckfest 2" >}} the ol' switcharoo{{< /patch >}}
+{{< patch "^" "wreckfest buffed to all-time favorite" "+" "wreckfest 2" >}} the ol' switcharoo{{< /patch >}}
 
 {{< column >}}
 {{< style word="2/28/25" type="yellow" >}}  
