@@ -177,6 +177,10 @@ article, .articlePreview {
         border: 1px solid var(--default_stroke);
         border-radius: 3px;
     }
+    p {
+        line-height: 1.75;
+        margin-bottom: 1.4rem;
+    }
 }
 
 code {
