@@ -1263,78 +1263,80 @@ a {
 	color: #FFD3AC;
 }
 
-.patch-row {
-  display: grid;
-  /* Left column sizes to fit the title, right column takes the remaining space */
-  grid-template-columns: minmax(180px, max-content) 1fr;
-  column-gap: 1.25rem;
-  row-gap: 0.5rem;
-  margin-bottom: 2rem;
+/* --- Patch Notes Log Styling --- */
+
+.patch-entry {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  border-left: 3px solid transparent;
   line-height: 1.6;
+  transition: background 0.15s ease;
 }
 
-/* Left Column: Fixed alignment */
-.patch-meta {
-  display: flex;
-  align-items: baseline;
-  white-space: nowrap;
+/* Subtle diff background wash and colored left border indicator */
+.patch-entry:has(.patch-green) {
+  background: rgba(90, 247, 142, 0.03);
+  border-left-color: #5af78e;
+}
+
+.patch-entry:has(.patch-red) {
+  background: rgba(255, 92, 87, 0.03);
+  border-left-color: #ff5c57;
+}
+
+.patch-entry:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Monospace anchor for metadata */
+.patch-symbol,
+.patch-title {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 .patch-symbol.patch-green {
   color: #5af78e;
   font-weight: bold;
-  margin-right: 0.15rem;
 }
 
 .patch-symbol.patch-red {
   color: #ff5c57;
   font-weight: bold;
-  margin-right: 0.15rem;
 }
 
 .patch-title {
   color: #f0f6fc;
 }
 
-/* Right Column: Prefix and block comments */
-.patch-content {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4rem;
-  color: #8b949e;
-}
-
-.patch-prefix {
-  user-select: none;
-  flex-shrink: 0;
-}
-
+/* IDE Developer-Style Comment Formatting */
+.patch-comment,
 .patch-body {
-  flex-grow: 1;
+  font-style: italic;
+  color: #7d8590;
 }
 
-.patch-body p {
-  margin: 0;
+/* Keeps the first line inline directly after the // comment symbol */
+.patch-body,
+.patch-body p:first-child {
+  display: inline;
 }
 
+/* Subsequent paragraphs break naturally below */
 .patch-body p + p {
-  margin-top: 0.85rem;
+  display: block;
+  margin-top: 0.75rem;
 }
 
-/* Emphasized elements & links inside comments */
+/* Override italics for bold/links inside comments so they pop */
 .patch-body strong {
+  font-style: normal;
   color: #c9d1d9;
 }
 
 .patch-body a {
+  font-style: normal;
   color: #58a6ff;
   text-decoration: underline;
-}
-
-/* Mobile responsive fallback: stack when the viewport is narrow */
-@media (max-width: 640px) {
-  .patch-row {
-    grid-template-columns: 1fr;
-    row-gap: 0.35rem;
-  }
 }

@@ -5,14 +5,6 @@
   {{ $colorClass = "patch-red" }}
 {{ end }}
 
-<div class="patch-row">
-  <div class="patch-meta">
-    <span class="patch-symbol {{ $colorClass }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong>
-  </div>
-  <div class="patch-content">
-    <span class="patch-prefix">//</span>
-    <div class="patch-body">
-      {{ .Inner | markdownify }}
-    </div>
-  </div>
+<div class="patch-entry">
+  <span class="patch-symbol {{ $colorClass }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong> <span class="patch-comment">//<span class="patch-body">{{ .Inner | markdownify }}</span></span>
 </div>
