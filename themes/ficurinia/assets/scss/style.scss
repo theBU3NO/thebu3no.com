@@ -1263,37 +1263,15 @@ a {
 	color: #FFD3AC;
 }
 
-/* --- Patch Notes Log Styling --- */
+/* --- Minimalist Plain-Text Patch Notes --- */
 
 .patch-entry {
-  position: relative;
   margin-bottom: 1.5rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 4px;
-  border-left: 3px solid transparent;
   line-height: 1.6;
-  transition: background 0.15s ease;
 }
 
-/* Subtle diff background wash and colored left border indicator */
-.patch-entry:has(.patch-green) {
-  background: rgba(90, 247, 142, 0.03);
-  border-left-color: #5af78e;
-}
-
-.patch-entry:has(.patch-red) {
-  background: rgba(255, 92, 87, 0.03);
-  border-left-color: #ff5c57;
-}
-
-.patch-entry:hover {
-  background: rgba(255, 255, 255, 0.04);
-}
-
-/* Monospace anchor for metadata */
-.patch-symbol,
-.patch-title {
-  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+.patch-line {
+  margin-bottom: 0.2rem;
 }
 
 .patch-symbol.patch-green {
@@ -1310,14 +1288,12 @@ a {
   color: #f0f6fc;
 }
 
-/* IDE Developer-Style Comment Formatting */
 .patch-comment,
 .patch-body {
-  font-style: italic;
-  color: #7d8590;
+  color: #8b949e;
 }
 
-/* Keeps the first line inline directly after the // comment symbol */
+/* Keeps the first line inline directly after the comment slashes */
 .patch-body,
 .patch-body p:first-child {
   display: inline;
@@ -1329,14 +1305,11 @@ a {
   margin-top: 0.75rem;
 }
 
-/* Override italics for bold/links inside comments so they pop */
 .patch-body strong {
-  font-style: normal;
   color: #c9d1d9;
 }
 
 .patch-body a {
-  font-style: normal;
   color: #58a6ff;
   text-decoration: underline;
 }

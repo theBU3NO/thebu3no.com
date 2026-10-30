@@ -1,10 +1,36 @@
 {{ $symbol := .Get "type" | default (.Get 0 | default "+") }}
 {{ $title := .Get "title" | default (.Get 1) }}
-{{ $colorClass := "patch-green" }}
+{{ $secondSymbol := .Get "type2" | default (.Get 2) }}
+{{ $secondTitle := .Get "title2" | default (.Get 3) }}
+
+{{/* Shorthand support for add/remove named parameters */}}
+{{ if .Get "add" }}
+  {{ $symbol = "+" }}
+  {{ $title = .Get "add" }}
+  {{ $secondSymbol = "-" }}
+  {{ $secondTitle = .Get "remove" | default (.Get "add") }}
+{{ end }}
+
+{{ $color1 := "patch-green" }}
 {{ if or (eq $symbol "-") (eq $symbol "red") }}
-  {{ $colorClass = "patch-red" }}
+  {{ $color1 = "patch-red" }}
 {{ end }}
 
 <div class="patch-entry">
-  <span class="patch-symbol {{ $colorClass }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong> <span class="patch-comment">//<span class="patch-body">{{ .Inner | markdownify }}</span></span>
+  {{ if $secondSymbol }}
+    {{ $color2 := "patch-red" }}
+    {{ if or (eq $secondSymbol "+") (eq $secondSymbol "green") }}
+      {{ $color2 = "patch-green" }}
+    {{ end }}
+    <div class="patch-line">
+      <span class="patch-symbol {{ $color1 }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong> <span class="patch-comment">//</span>
+    </div>
+    <div class="patch-line">
+      <span class="patch-symbol {{ $color2 }}">{{ $secondSymbol }}</span><strong class="patch-title">{{ $secondTitle }}</strong> <span class="patch-comment">////<span class="patch-body">{{ .Inner | markdownify }}</span></span>
+    </div>
+  {{ else }}
+    <div class="patch-line">
+      <span class="patch-symbol {{ $color1 }}">{{ $symbol }}</span><strong class="patch-title">{{ $title }}</strong> <span class="patch-comment">//<span class="patch-body">{{ .Inner | markdownify }}</span></span>
+    </div>
+  {{ end }}
 </div>
