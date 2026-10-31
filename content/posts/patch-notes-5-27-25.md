@@ -1,7 +1,6 @@
 ---
-title: "patch notes 5/27/25"
+title: "patch notes"
 summary: "giving up on my nintendo dreams"
-showDate: false #false for patch notes
 date: 2025-05-27  #YYYY-MM-DDTHH:MM:SS-05:00 #add time to arrange multiple posts in a day
 tags:
   - 🌐website

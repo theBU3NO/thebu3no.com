@@ -1,7 +1,6 @@
 ---
-title: "patch notes 1/23/2026"
+title: "patch notes"
 summary: "i'm a mahjong guy now"
-showDate: false #false for patch notes
 date: 2026-01-23  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 tags:
   - 🌐website

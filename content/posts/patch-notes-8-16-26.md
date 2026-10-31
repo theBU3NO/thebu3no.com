@@ -1,7 +1,6 @@
 ---
-title: "patch notes 8/17/26"
+title: "patch notes"
 summary: "multiplayer vampire survivors holy shit"
-showDate: false #false for patch notes
 date: 2026-08-17  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 norss: false #for pages/extras
 tags:
