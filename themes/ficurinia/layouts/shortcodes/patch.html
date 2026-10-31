@@ -1,27 +1,19 @@
 {{ $params := slice }}
 
-{{/* 1. Support the shorthand add/remove named syntax */}}
-{{ if .Get "add" }}
-  {{ $params = $params | append (dict "symbol" "+" "title" (.Get "add")) }}
-  {{ if .Get "remove" }}
-    {{ $params = $params | append (dict "symbol" "-" "title" (.Get "remove")) }}
-  {{ end }}
-{{ else }}
-  {{/* 2. Dynamic positional support for unlimited items: symbol, title, symbol, title... */}}
-  {{ range $i, $val := .Params }}
-    {{ if eq (mod $i 2) 0 }}
-      {{ $sym := $val }}
-      {{ $name := index $.Params (add $i 1) | default "" }}
-      {{ if $name }}
-        {{ $params = $params | append (dict "symbol" $sym "title" $name) }}
-      {{ end }}
+{{/* Positional paired support: symbol, title, symbol, title... */}}
+{{ range $i, $val := .Params }}
+  {{ if eq (mod $i 2) 0 }}
+    {{ $sym := $val }}
+    {{ $name := index $.Params (add $i 1) | default "" }}
+    {{ if $name }}
+      {{ $params = $params | append (dict "symbol" $sym "title" $name) }}
     {{ end }}
   {{ end }}
 {{ end }}
 
-{{/* Fallback if user only passed named type/title */}}
+{{/* Fallback if legacy named type/title were passed */}}
 {{ if eq (len $params) 0 }}
-  {{ $params = $params | append (dict "symbol" (.Get "type" | default "+") "title" (.Get "title" | default "untitled")) }}
+  {{ $params = $params | append (dict "symbol" (.Get "type" | default "") "title" (.Get "title" | default "untitled")) }}
 {{ end }}
 
 {{ $total := len $params }}
@@ -42,7 +34,10 @@
     {{ end }}
 
     <div class="patch-line">
-      <span class="patch-symbol {{ $colorClass }}">{{ $item.symbol }}</span><span class="patch-title">{{ $item.title }}</span>
+      {{- if and $item.symbol (ne $item.symbol "") (ne $item.symbol "none") -}}
+        <span class="patch-symbol {{ $colorClass }}">{{ $item.symbol }}</span>
+      {{- end -}}
+      <span class="patch-title">{{ $item.title }}</span>
       {{- if and $isLast $hasBody }} <span class="patch-comment">// <span class="patch-body">{{ $.Inner | markdownify }}</span></span>{{ end -}}
     </div>
   {{ end }}
