@@ -1,6 +1,7 @@
 ---
 title: "patch notes 10/29/26"
 summary: "forever is a long time"
+showDate: false #false for patch notes
 date: 2026-10-29  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 norss: false #for pages/extras
 tags:

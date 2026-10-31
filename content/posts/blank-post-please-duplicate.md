@@ -1,6 +1,7 @@
 ---
 title: "title"
 summary: "what the link preview says"
+showDate: true #false for patch notes
 date: 2026-01-01  #YYYY-MM-DDTHH:MM:SS-05:00   #add time to arrange multiple posts in a day
 norss: false #for pages/extras
 tags:
